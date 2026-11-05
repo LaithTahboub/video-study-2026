@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Video Tour Study</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app">
+
+<section id="screen-loading" class="screen active" aria-live="polite">
+  <p class="muted">Loading the study...</p>
+</section>
+
+<section id="screen-error" class="screen">
+  <h1>Something went wrong</h1>
+  <p id="error-text"></p>
+  <p class="muted">Reload the page to try again. If it keeps happening, tell the person who sent you the link.</p>
+</section>
+
+<section id="screen-intro" class="screen narrow">
+  <h1>Video tour study</h1>
+  <p class="lede">Help us compare methods that turn a few photos of a landmark into a video tour that flies around it.</p>
+  <div class="card">
+    <h2>What you will do</h2>
+    <ol class="steps">
+      <li>Each trial shows a <strong>starting photo</strong>, a few <strong>other photos</strong> of the same place taken at other times, and <strong>two videos</strong> side by side. Both videos start from the starting photo and fly the same camera path.</li>
+      <li>Watch both videos to the end. The answer buttons unlock after one full play.</li>
+      <li>Answer by picking the left or the right video. The first question asks which video you would prefer for a virtual tour of the place; three shorter questions follow, on the look, the place and the quality. There are no right answers; go with your impression. If the two look equally good, pick the one you lean toward.</li>
+    </ol>
+    <p><span id="intro-count">About 22</span> trials, about <span id="intro-minutes">13</span> minutes. Please use a laptop or desktop screen with the browser window as large as possible, and do not resize it during the study.</p>
+  </div>
+  <div class="card">
+    <h2>Your answers</h2>
+    <p>Your answers are anonymous. We record your choices, how long each trial took, your window size and the optional answer below. We do not record your name, email or address.</p>
+    <label class="field" for="experience">Do you work with computer graphics, computer vision or video? (optional)</label>
+    <select id="experience">
+      <option value="">Prefer not to say</option>
+      <option value="none">No</option>
+      <option value="some">A little</option>
+      <option value="expert">Yes, it is my field</option>
+    </select>
+    <label class="check" for="consent"><input type="checkbox" id="consent"> I agree to take part and for my anonymous answers to be used in a research paper.</label>
+  </div>
+  <p id="small-screen" class="warn" hidden>Your window is narrow. The videos are shown side by side and need a laptop or desktop screen.</p>
+  <button id="btn-intro" class="primary" type="button" disabled>Continue</button>
+</section>
+
+<section id="screen-howto" class="screen narrow">
+  <h1>The questions</h1>
+  <div class="card">
+    <ol class="qlist" id="howto-questions"></ol>
+    <p>The <strong>starting photo</strong> sets the look: the video should keep its light, colours, weather and time of day. The <strong>other photos</strong> were taken at other times, so their look can differ; use them to see what the place really looks like (its buildings and shapes).</p>
+    <p>Click any photo to see it larger. The first trial is a practice and is not counted.</p>
+  </div>
+  <button id="btn-howto" class="primary" type="button">Start the practice trial</button>
+</section>
+
+<section id="screen-trial" class="screen wide">
+  <header class="trialbar">
+    <div class="progress-text"><span id="trial-label">Trial 1 of 22</span><span id="practice-tag" class="tag" hidden>Practice, not counted</span></div>
+    <div class="progress" aria-hidden="true"><div id="progress-fill"></div></div>
+  </header>
+
+  <div class="inputs">
+    <figure class="f0">
+      <figcaption>Starting photo</figcaption>
+      <img id="img-f0" alt="Starting photo" data-zoom>
+    </figure>
+    <figure class="others">
+      <figcaption>Other photos of this place, taken at other times</figcaption>
+      <div id="img-others" class="thumbs"></div>
+    </figure>
+  </div>
+
+  <div class="videos">
+    <figure>
+      <figcaption>Left</figcaption>
+      <div class="vbox"><video id="vid-L" muted playsinline preload="auto" disablepictureinpicture></video><div class="vmsg" id="msg-L"></div></div>
+    </figure>
+    <figure>
+      <figcaption>Right</figcaption>
+      <div class="vbox"><video id="vid-R" muted playsinline preload="auto" disablepictureinpicture></video><div class="vmsg" id="msg-R"></div></div>
+    </figure>
+  </div>
+
+  <div class="controls">
+    <button id="btn-restart" type="button">Play both from the start</button>
+    <button id="btn-pause" type="button">Pause</button>
+    <span id="play-status" class="muted" aria-live="polite"></span>
+  </div>
+
+  <div id="questions" class="questions"></div>
+
+  <div class="nextrow">
+    <span id="next-hint" class="muted">Answer all the questions to continue.</span>
+    <button id="btn-next" class="primary" type="button" disabled>Next trial</button>
+  </div>
+</section>
+
+<section id="screen-done" class="screen narrow">
+  <h1>Thank you</h1>
+  <p class="lede" id="done-status">Sending your answers...</p>
+  <div class="card">
+    <p>Your completion code is <code id="done-code"></code>.</p>
+    <p id="done-fallback">If the message above says your answers could not be sent, download them and send the file to <span id="done-contact"></span>.</p>
+    <div class="row">
+      <button id="btn-download" type="button">Download my answers</button>
+      <button id="btn-copy" type="button">Copy my answers</button>
+      <span id="copy-status" class="muted"></span>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="foot"><a href="credits.html" target="_blank" rel="noopener">Photo credits</a></footer>
+
+<div id="zoom" class="zoom" hidden><img id="zoom-img" alt="Enlarged photo"><p class="muted">Click anywhere or press Escape to close.</p></div>
+
+<script src="config.js"></script>
+<script src="study.js"></script>
+</body>
+</html>
