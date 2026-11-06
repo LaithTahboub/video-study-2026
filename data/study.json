@@ -1,5 +1,5 @@
 {
- "study_id": "tour-v3",
+ "study_id": "tour-v4",
  "questions": [
   {
    "id": "prefer",
@@ -244,37 +244,37 @@
     },
     {
      "uid": "001-10",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
+     "practice": false
+    },
+    {
+     "uid": "001-11",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "9d1844811cf4",
+     "R": "d06f443841ce",
+     "practice": false
+    },
+    {
+     "uid": "001-12",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "c45f8a562581",
+     "R": "36a697460492",
+     "practice": false
+    },
+    {
+     "uid": "001-13",
      "cell": "hs2_capela_das_almas_porto_87",
      "L": "945579caf6c8",
      "R": "64c783afb842",
      "practice": false
     },
     {
-     "uid": "001-11",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "a1c22da06443",
-     "R": "531b1ba0ecd8",
-     "practice": false
-    },
-    {
-     "uid": "001-12",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "b7a9be6e1a0f",
-     "R": "620ce462b064",
-     "practice": false
-    },
-    {
-     "uid": "001-13",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "b1540d6ab9ee",
-     "R": "c45f8a562581",
-     "practice": false
-    },
-    {
      "uid": "001-14",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "bff6b351d71b",
-     "R": "35cd08d98dcb",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "b7a9be6e1a0f",
      "practice": false
     },
     {
@@ -286,30 +286,30 @@
     },
     {
      "uid": "001-16",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "d62f9e222f19",
-     "R": "558d30e0cb7a",
+     "cell": "hs2_bara_imambara_230",
+     "L": "3490b310d757",
+     "R": "dc2b0f6d0a8a",
      "practice": false
     },
     {
      "uid": "001-17",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "8200b3441ce7",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "66fb5e6822b0",
+     "R": "35cd08d98dcb",
      "practice": false
     },
     {
      "uid": "001-18",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "2988685ae149",
+     "cell": "orb_whitby_abbey_156",
+     "L": "0be1d7b82818",
+     "R": "d15ef13e4510",
      "practice": false
     },
     {
      "uid": "001-19",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "531b1ba0ecd8",
-     "R": "a1c22da06443",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
      "practice": false
     }
    ]
@@ -389,72 +389,72 @@
     },
     {
      "uid": "002-10",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "4961b95ea8bf",
-     "R": "d06f443841ce",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "d62f9e222f19",
+     "R": "558d30e0cb7a",
      "practice": false
     },
     {
      "uid": "002-11",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "00508ab3e383",
-     "R": "d691ecf79924",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "301e9d765093",
      "practice": false
     },
     {
      "uid": "002-12",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "74ce55162c0c",
-     "R": "d2df6b03c661",
-     "practice": false
-    },
-    {
-     "uid": "002-13",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "ba038f2428db",
-     "R": "dc58d1c6140c",
-     "practice": false
-    },
-    {
-     "uid": "002-14",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "a1c22da06443",
-     "R": "acbde5341321",
-     "practice": false
-    },
-    {
-     "uid": "002-15",
-     "cell": "hs2_arenes_de_nimes_226",
-     "L": "beae39ef0f5d",
-     "R": "6b9bd48ed7a9",
-     "practice": false
-    },
-    {
-     "uid": "002-16",
      "cell": "hs2_fulda_cathedral_166",
      "L": "d4380fdbc8eb",
      "R": "c4df9ab5c27a",
      "practice": false
     },
     {
-     "uid": "002-17",
+     "uid": "002-13",
      "cell": "hs2_the_iron_bridge_117",
-     "L": "e1d5de6f0c32",
+     "L": "1c548e635917",
      "R": "35cd08d98dcb",
      "practice": false
     },
     {
+     "uid": "002-14",
+     "cell": "orb_erechtheum_270",
+     "L": "c365c1e987eb",
+     "R": "64222c3c0280",
+     "practice": false
+    },
+    {
+     "uid": "002-15",
+     "cell": "hs2_santa_maria_and_san_donato_m_211",
+     "L": "c0e6bedc5888",
+     "R": "d9f9b4e01c6a",
+     "practice": false
+    },
+    {
+     "uid": "002-16",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "782c35807c44",
+     "R": "c98309b01545",
+     "practice": false
+    },
+    {
+     "uid": "002-17",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "74ce55162c0c",
+     "R": "d2df6b03c661",
+     "practice": false
+    },
+    {
      "uid": "002-18",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "9893559d98fa",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "bf5fa9f5541a",
+     "R": "d06f443841ce",
      "practice": false
     },
     {
      "uid": "002-19",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "d691ecf79924",
-     "R": "00508ab3e383",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "558d30e0cb7a",
+     "R": "d62f9e222f19",
      "practice": false
     }
    ]
@@ -536,21 +536,21 @@
      "uid": "003-10",
      "cell": "orb_cathedral_of_talin_160",
      "L": "c45f8a562581",
-     "R": "36a697460492",
+     "R": "9893559d98fa",
      "practice": false
     },
     {
      "uid": "003-11",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "a66d1e77cb0c",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "117e6f806ae1",
+     "R": "db99a4dc1c1f",
      "practice": false
     },
     {
      "uid": "003-12",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "241a59905f92",
-     "R": "56d4e757bf11",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "558d30e0cb7a",
+     "R": "d62f9e222f19",
      "practice": false
     },
     {
@@ -562,44 +562,44 @@
     },
     {
      "uid": "003-14",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "6f0c0e7bbae3",
-     "R": "a1c22da06443",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "a66d1e77cb0c",
      "practice": false
     },
     {
      "uid": "003-15",
-     "cell": "hs2_george_enescu_museum_64",
-     "L": "b4185556190f",
-     "R": "f4663f704413",
+     "cell": "hs2_ponte_coperto_pavia_137",
+     "L": "7c1cf47ecf7f",
+     "R": "0f1746db3b67",
      "practice": false
     },
     {
      "uid": "003-16",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "80d970653c76",
-     "R": "1c129d2bdf92",
-     "practice": false
-    },
-    {
-     "uid": "003-17",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "66fb5e6822b0",
-     "practice": false
-    },
-    {
-     "uid": "003-18",
      "cell": "hs2_sat_gambuj_mosque_372",
      "L": "8f2a22e2b60a",
      "R": "9f9574a7d139",
      "practice": false
     },
     {
+     "uid": "003-17",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "a1c22da06443",
+     "R": "531b1ba0ecd8",
+     "practice": false
+    },
+    {
+     "uid": "003-18",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "80d970653c76",
+     "R": "1c129d2bdf92",
+     "practice": false
+    },
+    {
      "uid": "003-19",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "36a697460492",
-     "R": "c45f8a562581",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "db99a4dc1c1f",
+     "R": "117e6f806ae1",
      "practice": false
     }
    ]
@@ -679,72 +679,72 @@
     },
     {
      "uid": "004-10",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "93a985f0eb8a",
-     "R": "4fb39632a8d9",
-     "practice": false
-    },
-    {
-     "uid": "004-11",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "3e5048b16bea",
-     "practice": false
-    },
-    {
-     "uid": "004-12",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "e9b7e59466fb",
-     "practice": false
-    },
-    {
-     "uid": "004-13",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "83eefcf4145b",
-     "R": "61a40850b4db",
-     "practice": false
-    },
-    {
-     "uid": "004-14",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "74ce55162c0c",
-     "R": "d2df6b03c661",
-     "practice": false
-    },
-    {
-     "uid": "004-15",
-     "cell": "hs2_santa_maria_and_san_donato_m_211",
-     "L": "d9f9b4e01c6a",
-     "R": "c0e6bedc5888",
-     "practice": false
-    },
-    {
-     "uid": "004-16",
      "cell": "hs2_ponte_pietra_verona_70",
      "L": "d691ecf79924",
      "R": "00508ab3e383",
      "practice": false
     },
     {
-     "uid": "004-17",
-     "cell": "orb_whitby_abbey_156",
-     "L": "caa48d6ad78a",
-     "R": "d15ef13e4510",
+     "uid": "004-11",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "ba038f2428db",
+     "R": "dc58d1c6140c",
      "practice": false
     },
     {
-     "uid": "004-18",
+     "uid": "004-12",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "b7a9be6e1a0f",
+     "R": "620ce462b064",
+     "practice": false
+    },
+    {
+     "uid": "004-13",
      "cell": "hs2_castello_di_miramare_trieste_340",
      "L": "ee55c1629870",
      "R": "225d49e4b3d9",
      "practice": false
     },
     {
+     "uid": "004-14",
+     "cell": "orb_erechtheum_270",
+     "L": "093e08881f19",
+     "R": "c365c1e987eb",
+     "practice": false
+    },
+    {
+     "uid": "004-15",
+     "cell": "hs2_arenes_de_nimes_226",
+     "L": "beae39ef0f5d",
+     "R": "6b9bd48ed7a9",
+     "practice": false
+    },
+    {
+     "uid": "004-16",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "35cd08d98dcb",
+     "R": "bff6b351d71b",
+     "practice": false
+    },
+    {
+     "uid": "004-17",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "d4380fdbc8eb",
+     "R": "3388cea5e334",
+     "practice": false
+    },
+    {
+     "uid": "004-18",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "acbde5341321",
+     "R": "a1c22da06443",
+     "practice": false
+    },
+    {
      "uid": "004-19",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "4fb39632a8d9",
-     "R": "93a985f0eb8a",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
      "practice": false
     }
    ]
@@ -824,37 +824,37 @@
     },
     {
      "uid": "005-10",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "d4380fdbc8eb",
-     "R": "146033917c21",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "db99a4dc1c1f",
+     "R": "8200b3441ce7",
      "practice": false
     },
     {
      "uid": "005-11",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "d62f9e222f19",
-     "R": "558d30e0cb7a",
-     "practice": false
-    },
-    {
-     "uid": "005-12",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "c98309b01545",
-     "R": "782c35807c44",
-     "practice": false
-    },
-    {
-     "uid": "005-13",
      "cell": "hs2_ancient_roman_theatre_aosta_50",
      "L": "43d2816d0bee",
      "R": "620ce462b064",
      "practice": false
     },
     {
+     "uid": "005-12",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "d4380fdbc8eb",
+     "R": "146033917c21",
+     "practice": false
+    },
+    {
+     "uid": "005-13",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "4fb39632a8d9",
+     "R": "93a985f0eb8a",
+     "practice": false
+    },
+    {
      "uid": "005-14",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "301e9d765093",
-     "R": "61a40850b4db",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "9f9574a7d139",
+     "R": "8f2a22e2b60a",
      "practice": false
     },
     {
@@ -866,30 +866,30 @@
     },
     {
      "uid": "005-16",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "bf5fa9f5541a",
-     "R": "d06f443841ce",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "83eefcf4145b",
      "practice": false
     },
     {
      "uid": "005-17",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "942fc6e950ac",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "6f0c0e7bbae3",
+     "R": "a1c22da06443",
      "practice": false
     },
     {
      "uid": "005-18",
-     "cell": "orb_erechtheum_270",
-     "L": "c365c1e987eb",
-     "R": "64222c3c0280",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "d255ee770092",
+     "R": "1c129d2bdf92",
      "practice": false
     },
     {
      "uid": "005-19",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "146033917c21",
-     "R": "d4380fdbc8eb",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "43d2816d0bee",
      "practice": false
     }
    ]
@@ -969,72 +969,72 @@
     },
     {
      "uid": "006-10",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "2988685ae149",
+     "R": "1c129d2bdf92",
+     "practice": false
+    },
+    {
+     "uid": "006-11",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "4961b95ea8bf",
+     "R": "d06f443841ce",
+     "practice": false
+    },
+    {
+     "uid": "006-12",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "d62f9e222f19",
+     "R": "558d30e0cb7a",
+     "practice": false
+    },
+    {
+     "uid": "006-13",
      "cell": "hs2_ancient_roman_theatre_in_mer_87",
      "L": "002af1a54270",
      "R": "d2df6b03c661",
      "practice": false
     },
     {
-     "uid": "006-11",
+     "uid": "006-14",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "c45f8a562581",
+     "R": "b1540d6ab9ee",
+     "practice": false
+    },
+    {
+     "uid": "006-15",
+     "cell": "hs2_compania_de_jesus_cusco_85",
+     "L": "74efca2236a2",
+     "R": "5d52bdbd7c40",
+     "practice": false
+    },
+    {
+     "uid": "006-16",
      "cell": "orb_erechtheum_270",
      "L": "c365c1e987eb",
      "R": "17613e2141d1",
      "practice": false
     },
     {
-     "uid": "006-12",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "8eafd7fd6105",
-     "R": "d06f443841ce",
-     "practice": false
-    },
-    {
-     "uid": "006-13",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "dc58d1c6140c",
-     "R": "ba038f2428db",
-     "practice": false
-    },
-    {
-     "uid": "006-14",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "56d4e757bf11",
-     "R": "241a59905f92",
-     "practice": false
-    },
-    {
-     "uid": "006-15",
-     "cell": "hs2_compania_de_jesus_cusco_85",
-     "L": "5d52bdbd7c40",
-     "R": "74efca2236a2",
-     "practice": false
-    },
-    {
-     "uid": "006-16",
-     "cell": "orb_whitby_abbey_156",
-     "L": "d15ef13e4510",
-     "R": "0be1d7b82818",
-     "practice": false
-    },
-    {
      "uid": "006-17",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "90a29a5ce5cc",
-     "R": "ee55c1629870",
-     "practice": false
-    },
-    {
-     "uid": "006-18",
      "cell": "hs2_bara_imambara_230",
      "L": "3490b310d757",
      "R": "4a4a36e39162",
      "practice": false
     },
     {
+     "uid": "006-18",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "c98309b01545",
+     "R": "782c35807c44",
+     "practice": false
+    },
+    {
      "uid": "006-19",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "002af1a54270",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "d06f443841ce",
+     "R": "4961b95ea8bf",
      "practice": false
     }
    ]
@@ -1114,72 +1114,72 @@
     },
     {
      "uid": "007-10",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "ee2832f2b877",
-     "practice": false
-    },
-    {
-     "uid": "007-11",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "9d1844811cf4",
-     "R": "d06f443841ce",
-     "practice": false
-    },
-    {
-     "uid": "007-12",
      "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "b7a9be6e1a0f",
+     "L": "43d2816d0bee",
      "R": "620ce462b064",
      "practice": false
     },
     {
-     "uid": "007-13",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "d691ecf79924",
-     "R": "00508ab3e383",
-     "practice": false
-    },
-    {
-     "uid": "007-14",
+     "uid": "007-11",
      "cell": "hs2_wrocław_new_town_hall_58",
      "L": "d62f9e222f19",
      "R": "558d30e0cb7a",
      "practice": false
     },
     {
+     "uid": "007-12",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
+     "practice": false
+    },
+    {
+     "uid": "007-13",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "e9b7e59466fb",
+     "R": "db99a4dc1c1f",
+     "practice": false
+    },
+    {
+     "uid": "007-14",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "74ce55162c0c",
+     "practice": false
+    },
+    {
      "uid": "007-15",
-     "cell": "hs2_ponte_coperto_pavia_137",
-     "L": "7c1cf47ecf7f",
-     "R": "0f1746db3b67",
+     "cell": "hs2_george_enescu_museum_64",
+     "L": "b4185556190f",
+     "R": "f4663f704413",
      "practice": false
     },
     {
      "uid": "007-16",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "117e6f806ae1",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "175b81ee9404",
      "practice": false
     },
     {
      "uid": "007-17",
-     "cell": "orb_erechtheum_270",
-     "L": "c365c1e987eb",
-     "R": "eb17dd7715a6",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "8eafd7fd6105",
+     "R": "d06f443841ce",
      "practice": false
     },
     {
      "uid": "007-18",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "725d2bd13e81",
-     "R": "d2df6b03c661",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "86c89aeb0c06",
      "practice": false
     },
     {
      "uid": "007-19",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "ee2832f2b877",
-     "R": "c45f8a562581",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "43d2816d0bee",
      "practice": false
     }
    ]
@@ -1259,72 +1259,72 @@
     },
     {
      "uid": "008-10",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "d255ee770092",
-     "R": "1c129d2bdf92",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "e1d5de6f0c32",
+     "R": "35cd08d98dcb",
      "practice": false
     },
     {
      "uid": "008-11",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "e9b7e59466fb",
-     "practice": false
-    },
-    {
-     "uid": "008-12",
      "cell": "orb_erechtheum_270",
      "L": "c365c1e987eb",
      "R": "64222c3c0280",
      "practice": false
     },
     {
+     "uid": "008-12",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "ba038f2428db",
+     "R": "dc58d1c6140c",
+     "practice": false
+    },
+    {
      "uid": "008-13",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "66fb5e6822b0",
+     "cell": "hs2_bara_imambara_230",
+     "L": "3490b310d757",
+     "R": "2379d41dec46",
      "practice": false
     },
     {
      "uid": "008-14",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "301e9d765093",
-     "R": "61a40850b4db",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "20b61709417a",
+     "R": "5fefd83ebace",
      "practice": false
     },
     {
      "uid": "008-15",
-     "cell": "hs2_george_enescu_museum_64",
-     "L": "b4185556190f",
-     "R": "f4663f704413",
+     "cell": "hs2_cathedral_of_christ_the_savi_92",
+     "L": "48cf7600cdf5",
+     "R": "334b164f5abb",
      "practice": false
     },
     {
      "uid": "008-16",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "c98309b01545",
-     "R": "782c35807c44",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "9893559d98fa",
+     "R": "c45f8a562581",
      "practice": false
     },
     {
      "uid": "008-17",
-     "cell": "hs2_bara_imambara_230",
-     "L": "dc2b0f6d0a8a",
-     "R": "3490b310d757",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "90a29a5ce5cc",
+     "R": "ee55c1629870",
      "practice": false
     },
     {
      "uid": "008-18",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "5fefd83ebace",
-     "R": "20b61709417a",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "80d970653c76",
      "practice": false
     },
     {
      "uid": "008-19",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "e9b7e59466fb",
-     "R": "db99a4dc1c1f",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "35cd08d98dcb",
+     "R": "e1d5de6f0c32",
      "practice": false
     }
    ]
@@ -1404,37 +1404,37 @@
     },
     {
      "uid": "009-10",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "241a59905f92",
-     "R": "56d4e757bf11",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "6f0c0e7bbae3",
+     "R": "a1c22da06443",
      "practice": false
     },
     {
      "uid": "009-11",
-     "cell": "orb_erechtheum_270",
-     "L": "17613e2141d1",
-     "R": "c365c1e987eb",
+     "cell": "hs2_bara_imambara_230",
+     "L": "3490b310d757",
+     "R": "3e5048b16bea",
      "practice": false
     },
     {
      "uid": "009-12",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "ee55c1629870",
-     "R": "e46117ed98e3",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "e9b7e59466fb",
+     "R": "db99a4dc1c1f",
      "practice": false
     },
     {
      "uid": "009-13",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "725d2bd13e81",
-     "R": "d2df6b03c661",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "b7a9be6e1a0f",
      "practice": false
     },
     {
      "uid": "009-14",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "61a40850b4db",
-     "R": "175b81ee9404",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "725d2bd13e81",
+     "R": "d2df6b03c661",
      "practice": false
     },
     {
@@ -1446,30 +1446,30 @@
     },
     {
      "uid": "009-16",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "b7a9be6e1a0f",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "caa48d6ad78a",
      "practice": false
     },
     {
      "uid": "009-17",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
+     "practice": false
+    },
+    {
+     "uid": "009-18",
      "cell": "hs2_sat_gambuj_mosque_372",
      "L": "9f9574a7d139",
      "R": "8f2a22e2b60a",
      "practice": false
     },
     {
-     "uid": "009-18",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "c4df9ab5c27a",
-     "R": "d4380fdbc8eb",
-     "practice": false
-    },
-    {
      "uid": "009-19",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "56d4e757bf11",
-     "R": "241a59905f92",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "a1c22da06443",
+     "R": "6f0c0e7bbae3",
      "practice": false
     }
    ]
@@ -1549,72 +1549,72 @@
     },
     {
      "uid": "010-10",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "00508ab3e383",
-     "R": "d691ecf79924",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "942fc6e950ac",
      "practice": false
     },
     {
      "uid": "010-11",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "b1540d6ab9ee",
-     "practice": false
-    },
-    {
-     "uid": "010-12",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "ee55c1629870",
-     "R": "eddfb9ee21e5",
-     "practice": false
-    },
-    {
-     "uid": "010-13",
      "cell": "hs2_christ_church_cathedral_mont_88",
      "L": "4fb39632a8d9",
      "R": "93a985f0eb8a",
      "practice": false
     },
     {
+     "uid": "010-12",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "35cd08d98dcb",
+     "R": "bff6b351d71b",
+     "practice": false
+    },
+    {
+     "uid": "010-13",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "9f9574a7d139",
+     "R": "8f2a22e2b60a",
+     "practice": false
+    },
+    {
      "uid": "010-14",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "342ab3430db9",
-     "R": "61a40850b4db",
+     "cell": "orb_erechtheum_270",
+     "L": "eb17dd7715a6",
+     "R": "c365c1e987eb",
      "practice": false
     },
     {
      "uid": "010-15",
-     "cell": "hs2_arenes_de_nimes_226",
-     "L": "beae39ef0f5d",
-     "R": "6b9bd48ed7a9",
+     "cell": "hs2_ponte_coperto_pavia_137",
+     "L": "0f1746db3b67",
+     "R": "7c1cf47ecf7f",
      "practice": false
     },
     {
      "uid": "010-16",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "1c548e635917",
-     "practice": false
-    },
-    {
-     "uid": "010-17",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "146033917c21",
-     "R": "d4380fdbc8eb",
-     "practice": false
-    },
-    {
-     "uid": "010-18",
      "cell": "hs2_ancient_roman_theatre_in_mer_87",
      "L": "d2df6b03c661",
      "R": "74ce55162c0c",
      "practice": false
     },
     {
+     "uid": "010-17",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "117e6f806ae1",
+     "R": "db99a4dc1c1f",
+     "practice": false
+    },
+    {
+     "uid": "010-18",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "0be1d7b82818",
+     "practice": false
+    },
+    {
      "uid": "010-19",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "b1540d6ab9ee",
-     "R": "c45f8a562581",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "93a985f0eb8a",
+     "R": "4fb39632a8d9",
      "practice": false
     }
    ]
@@ -1694,72 +1694,72 @@
     },
     {
      "uid": "011-10",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "d4380fdbc8eb",
-     "R": "3388cea5e334",
+     "cell": "hs2_capela_das_almas_porto_87",
+     "L": "64c783afb842",
+     "R": "945579caf6c8",
      "practice": false
     },
     {
      "uid": "011-11",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "945579caf6c8",
-     "R": "64c783afb842",
-     "practice": false
-    },
-    {
-     "uid": "011-12",
-     "cell": "orb_whitby_abbey_156",
-     "L": "d15ef13e4510",
-     "R": "6456b629ebb3",
-     "practice": false
-    },
-    {
-     "uid": "011-13",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "225d49e4b3d9",
-     "R": "ee55c1629870",
-     "practice": false
-    },
-    {
-     "uid": "011-14",
      "cell": "hs2_bara_imambara_230",
      "L": "4a4a36e39162",
      "R": "3490b310d757",
      "practice": false
     },
     {
-     "uid": "011-15",
-     "cell": "hs2_ponte_coperto_pavia_137",
-     "L": "7c1cf47ecf7f",
-     "R": "0f1746db3b67",
-     "practice": false
-    },
-    {
-     "uid": "011-16",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "83eefcf4145b",
-     "R": "61a40850b4db",
-     "practice": false
-    },
-    {
-     "uid": "011-17",
+     "uid": "011-12",
      "cell": "hs2_ancient_roman_theatre_aosta_50",
      "L": "9d4d21e9899f",
      "R": "620ce462b064",
      "practice": false
     },
     {
+     "uid": "011-13",
+     "cell": "orb_erechtheum_270",
+     "L": "17613e2141d1",
+     "R": "c365c1e987eb",
+     "practice": false
+    },
+    {
+     "uid": "011-14",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "2988685ae149",
+     "practice": false
+    },
+    {
+     "uid": "011-15",
+     "cell": "hs2_george_enescu_museum_64",
+     "L": "b4185556190f",
+     "R": "f4663f704413",
+     "practice": false
+    },
+    {
+     "uid": "011-16",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
+     "practice": false
+    },
+    {
+     "uid": "011-17",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "acbde5341321",
+     "R": "a1c22da06443",
+     "practice": false
+    },
+    {
      "uid": "011-18",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "d62f9e222f19",
-     "R": "558d30e0cb7a",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "ee55c1629870",
+     "R": "e46117ed98e3",
      "practice": false
     },
     {
      "uid": "011-19",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "3388cea5e334",
-     "R": "d4380fdbc8eb",
+     "cell": "hs2_capela_das_almas_porto_87",
+     "L": "945579caf6c8",
+     "R": "64c783afb842",
      "practice": false
     }
    ]
@@ -1839,72 +1839,72 @@
     },
     {
      "uid": "012-10",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "cd1440969bd4",
-     "R": "d4380fdbc8eb",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "83eefcf4145b",
      "practice": false
     },
     {
      "uid": "012-11",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "56d4e757bf11",
-     "R": "241a59905f92",
-     "practice": false
-    },
-    {
-     "uid": "012-12",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "117e6f806ae1",
-     "practice": false
-    },
-    {
-     "uid": "012-13",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "6f0773a399c7",
-     "R": "620ce462b064",
-     "practice": false
-    },
-    {
-     "uid": "012-14",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "6f0c0e7bbae3",
-     "R": "a1c22da06443",
-     "practice": false
-    },
-    {
-     "uid": "012-15",
-     "cell": "hs2_santa_maria_and_san_donato_m_211",
-     "L": "c0e6bedc5888",
-     "R": "d9f9b4e01c6a",
-     "practice": false
-    },
-    {
-     "uid": "012-16",
      "cell": "hs2_ancient_roman_theatre_in_mer_87",
      "L": "d2df6b03c661",
      "R": "725d2bd13e81",
      "practice": false
     },
     {
+     "uid": "012-12",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
+     "practice": false
+    },
+    {
+     "uid": "012-13",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "cd1440969bd4",
+     "R": "d4380fdbc8eb",
+     "practice": false
+    },
+    {
+     "uid": "012-14",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "66fb5e6822b0",
+     "R": "35cd08d98dcb",
+     "practice": false
+    },
+    {
+     "uid": "012-15",
+     "cell": "hs2_palais_de_rumine_lausanne_224",
+     "L": "fe50e3a519ec",
+     "R": "104dbf7c20ff",
+     "practice": false
+    },
+    {
+     "uid": "012-16",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "6456b629ebb3",
+     "practice": false
+    },
+    {
      "uid": "012-17",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "9f9574a7d139",
-     "R": "8f2a22e2b60a",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "d62f9e222f19",
+     "R": "558d30e0cb7a",
      "practice": false
     },
     {
      "uid": "012-18",
-     "cell": "orb_whitby_abbey_156",
-     "L": "d15ef13e4510",
-     "R": "0be1d7b82818",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "6f0773a399c7",
+     "R": "620ce462b064",
      "practice": false
     },
     {
      "uid": "012-19",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "d4380fdbc8eb",
-     "R": "cd1440969bd4",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "725d2bd13e81",
+     "R": "d2df6b03c661",
      "practice": false
     }
    ]
@@ -1984,72 +1984,72 @@
     },
     {
      "uid": "013-10",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "2379d41dec46",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "c4df9ab5c27a",
+     "R": "d4380fdbc8eb",
      "practice": false
     },
     {
      "uid": "013-11",
-     "cell": "orb_erechtheum_270",
-     "L": "c365c1e987eb",
-     "R": "093e08881f19",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "b7a9be6e1a0f",
      "practice": false
     },
     {
      "uid": "013-12",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "241a59905f92",
-     "R": "56d4e757bf11",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "8f2a22e2b60a",
+     "R": "9f9574a7d139",
      "practice": false
     },
     {
      "uid": "013-13",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "80d970653c76",
-     "R": "1c129d2bdf92",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "c45f8a562581",
+     "R": "ee2832f2b877",
      "practice": false
     },
     {
      "uid": "013-14",
-     "cell": "orb_whitby_abbey_156",
-     "L": "d15ef13e4510",
-     "R": "86c89aeb0c06",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "225d49e4b3d9",
+     "R": "ee55c1629870",
      "practice": false
     },
     {
      "uid": "013-15",
-     "cell": "hs2_palais_de_rumine_lausanne_224",
-     "L": "fe50e3a519ec",
-     "R": "104dbf7c20ff",
+     "cell": "hs2_arenes_de_nimes_226",
+     "L": "6b9bd48ed7a9",
+     "R": "beae39ef0f5d",
      "practice": false
     },
     {
      "uid": "013-16",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "4fb39632a8d9",
-     "R": "93a985f0eb8a",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "342ab3430db9",
      "practice": false
     },
     {
      "uid": "013-17",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "bff6b351d71b",
-     "R": "35cd08d98dcb",
+     "cell": "hs2_capela_das_almas_porto_87",
+     "L": "945579caf6c8",
+     "R": "64c783afb842",
      "practice": false
     },
     {
      "uid": "013-18",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "b7a9be6e1a0f",
-     "R": "620ce462b064",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "9d1844811cf4",
+     "R": "d06f443841ce",
      "practice": false
     },
     {
      "uid": "013-19",
-     "cell": "orb_erechtheum_270",
-     "L": "093e08881f19",
-     "R": "c365c1e987eb",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "d4380fdbc8eb",
+     "R": "c4df9ab5c27a",
      "practice": false
     }
    ]
@@ -2129,72 +2129,72 @@
     },
     {
      "uid": "014-10",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "9f9574a7d139",
-     "R": "8f2a22e2b60a",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "d4380fdbc8eb",
+     "R": "3388cea5e334",
      "practice": false
     },
     {
      "uid": "014-11",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "9893559d98fa",
-     "R": "c45f8a562581",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "301e9d765093",
+     "R": "61a40850b4db",
      "practice": false
     },
     {
      "uid": "014-12",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "bf5fa9f5541a",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "35cd08d98dcb",
+     "R": "66fb5e6822b0",
      "practice": false
     },
     {
      "uid": "014-13",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "2988685ae149",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "c45f8a562581",
+     "R": "b1540d6ab9ee",
      "practice": false
     },
     {
      "uid": "014-14",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "acbde5341321",
-     "R": "a1c22da06443",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "4fb39632a8d9",
+     "R": "93a985f0eb8a",
      "practice": false
     },
     {
      "uid": "014-15",
-     "cell": "hs2_cathedral_of_christ_the_savi_92",
-     "L": "334b164f5abb",
-     "R": "48cf7600cdf5",
+     "cell": "hs2_santa_maria_and_san_donato_m_211",
+     "L": "d9f9b4e01c6a",
+     "R": "c0e6bedc5888",
      "practice": false
     },
     {
      "uid": "014-16",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "43d2816d0bee",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "d62f9e222f19",
+     "R": "558d30e0cb7a",
      "practice": false
     },
     {
      "uid": "014-17",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "ee55c1629870",
-     "R": "90a29a5ce5cc",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "942fc6e950ac",
      "practice": false
     },
     {
      "uid": "014-18",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "20b61709417a",
-     "R": "5fefd83ebace",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "725d2bd13e81",
+     "R": "d2df6b03c661",
      "practice": false
     },
     {
      "uid": "014-19",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "9893559d98fa",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "301e9d765093",
      "practice": false
     }
    ]
@@ -2274,72 +2274,72 @@
     },
     {
      "uid": "015-10",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "9d1844811cf4",
-     "R": "d06f443841ce",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "ee55c1629870",
+     "R": "eddfb9ee21e5",
      "practice": false
     },
     {
      "uid": "015-11",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "8200b3441ce7",
-     "R": "db99a4dc1c1f",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "9893559d98fa",
+     "R": "c45f8a562581",
      "practice": false
     },
     {
      "uid": "015-12",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "9893559d98fa",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
      "practice": false
     },
     {
      "uid": "015-13",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "342ab3430db9",
-     "R": "61a40850b4db",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "43d2816d0bee",
+     "R": "620ce462b064",
      "practice": false
     },
     {
      "uid": "015-14",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "d62f9e222f19",
-     "R": "558d30e0cb7a",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "d06f443841ce",
+     "R": "8eafd7fd6105",
      "practice": false
     },
     {
      "uid": "015-15",
      "cell": "hs2_cathedral_of_cusco_10",
-     "L": "af7534e5f301",
-     "R": "92d450adfcb7",
+     "L": "92d450adfcb7",
+     "R": "af7534e5f301",
      "practice": false
     },
     {
      "uid": "015-16",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "945579caf6c8",
-     "R": "64c783afb842",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "531b1ba0ecd8",
+     "R": "a1c22da06443",
      "practice": false
     },
     {
      "uid": "015-17",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "43d2816d0bee",
+     "cell": "hs2_bara_imambara_230",
+     "L": "dc2b0f6d0a8a",
+     "R": "3490b310d757",
      "practice": false
     },
     {
      "uid": "015-18",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "146033917c21",
-     "R": "d4380fdbc8eb",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "c98309b01545",
+     "R": "782c35807c44",
      "practice": false
     },
     {
      "uid": "015-19",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "8200b3441ce7",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "eddfb9ee21e5",
+     "R": "ee55c1629870",
      "practice": false
     }
    ]
@@ -2419,30 +2419,30 @@
     },
     {
      "uid": "016-10",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "eddfb9ee21e5",
-     "R": "ee55c1629870",
+     "cell": "orb_whitby_abbey_156",
+     "L": "0be1d7b82818",
+     "R": "d15ef13e4510",
      "practice": false
     },
     {
      "uid": "016-11",
-     "cell": "orb_erechtheum_270",
-     "L": "093e08881f19",
-     "R": "c365c1e987eb",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "5fefd83ebace",
+     "R": "20b61709417a",
      "practice": false
     },
     {
      "uid": "016-12",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "b1540d6ab9ee",
-     "R": "c45f8a562581",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "e9b7e59466fb",
+     "R": "db99a4dc1c1f",
      "practice": false
     },
     {
      "uid": "016-13",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "8eafd7fd6105",
+     "cell": "orb_erechtheum_270",
+     "L": "093e08881f19",
+     "R": "c365c1e987eb",
      "practice": false
     },
     {
@@ -2454,37 +2454,37 @@
     },
     {
      "uid": "016-15",
-     "cell": "hs2_ponte_coperto_pavia_137",
-     "L": "0f1746db3b67",
-     "R": "7c1cf47ecf7f",
+     "cell": "hs2_compania_de_jesus_cusco_85",
+     "L": "5d52bdbd7c40",
+     "R": "74efca2236a2",
      "practice": false
     },
     {
      "uid": "016-16",
      "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "ba038f2428db",
-     "R": "dc58d1c6140c",
+     "L": "d62f9e222f19",
+     "R": "558d30e0cb7a",
      "practice": false
     },
     {
      "uid": "016-17",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "2988685ae149",
+     "practice": false
+    },
+    {
+     "uid": "016-18",
      "cell": "hs2_ancient_roman_theatre_in_mer_87",
      "L": "74ce55162c0c",
      "R": "d2df6b03c661",
      "practice": false
     },
     {
-     "uid": "016-18",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "00508ab3e383",
-     "R": "d691ecf79924",
-     "practice": false
-    },
-    {
      "uid": "016-19",
-     "cell": "orb_erechtheum_270",
-     "L": "c365c1e987eb",
-     "R": "093e08881f19",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "0be1d7b82818",
      "practice": false
     }
    ]
@@ -2564,72 +2564,72 @@
     },
     {
      "uid": "017-10",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "dc2b0f6d0a8a",
-     "practice": false
-    },
-    {
-     "uid": "017-11",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "558d30e0cb7a",
-     "R": "d62f9e222f19",
-     "practice": false
-    },
-    {
-     "uid": "017-12",
-     "cell": "orb_whitby_abbey_156",
-     "L": "d15ef13e4510",
-     "R": "0be1d7b82818",
-     "practice": false
-    },
-    {
-     "uid": "017-13",
      "cell": "hs2_theatre_of_hierapolis_37",
      "L": "1c129d2bdf92",
      "R": "80d970653c76",
      "practice": false
     },
     {
+     "uid": "017-11",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "bf5fa9f5541a",
+     "R": "d06f443841ce",
+     "practice": false
+    },
+    {
+     "uid": "017-12",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "6f0c0e7bbae3",
+     "R": "a1c22da06443",
+     "practice": false
+    },
+    {
+     "uid": "017-13",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "b7a9be6e1a0f",
+     "practice": false
+    },
+    {
      "uid": "017-14",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "c98309b01545",
-     "R": "782c35807c44",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "dc58d1c6140c",
+     "R": "ba038f2428db",
      "practice": false
     },
     {
      "uid": "017-15",
-     "cell": "hs2_compania_de_jesus_cusco_85",
-     "L": "5d52bdbd7c40",
-     "R": "74efca2236a2",
+     "cell": "hs2_cathedral_of_cusco_10",
+     "L": "af7534e5f301",
+     "R": "92d450adfcb7",
      "practice": false
     },
     {
      "uid": "017-16",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "301e9d765093",
-     "R": "61a40850b4db",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "c45f8a562581",
+     "R": "b1540d6ab9ee",
      "practice": false
     },
     {
      "uid": "017-17",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "a4683502ba04",
-     "R": "db99a4dc1c1f",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "8f2a22e2b60a",
+     "R": "9f9574a7d139",
      "practice": false
     },
     {
      "uid": "017-18",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "74ce55162c0c",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "35cd08d98dcb",
+     "R": "1c548e635917",
      "practice": false
     },
     {
      "uid": "017-19",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "d62f9e222f19",
-     "R": "558d30e0cb7a",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "80d970653c76",
+     "R": "1c129d2bdf92",
      "practice": false
     }
    ]
@@ -2709,72 +2709,72 @@
     },
     {
      "uid": "018-10",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "002af1a54270",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "9f9574a7d139",
+     "R": "8f2a22e2b60a",
      "practice": false
     },
     {
      "uid": "018-11",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "117e6f806ae1",
+     "cell": "orb_erechtheum_270",
+     "L": "c365c1e987eb",
+     "R": "17613e2141d1",
      "practice": false
     },
     {
      "uid": "018-12",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "00508ab3e383",
-     "R": "d691ecf79924",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "725d2bd13e81",
      "practice": false
     },
     {
      "uid": "018-13",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "241a59905f92",
-     "R": "56d4e757bf11",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "6f0773a399c7",
      "practice": false
     },
     {
      "uid": "018-14",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
+     "practice": false
+    },
+    {
+     "uid": "018-15",
+     "cell": "hs2_cathedral_of_christ_the_savi_92",
+     "L": "48cf7600cdf5",
+     "R": "334b164f5abb",
+     "practice": false
+    },
+    {
+     "uid": "018-16",
      "cell": "orb_whitby_abbey_156",
      "L": "caa48d6ad78a",
      "R": "d15ef13e4510",
      "practice": false
     },
     {
-     "uid": "018-15",
-     "cell": "hs2_cathedral_of_cusco_10",
-     "L": "92d450adfcb7",
-     "R": "af7534e5f301",
-     "practice": false
-    },
-    {
-     "uid": "018-16",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "43d2816d0bee",
-     "practice": false
-    },
-    {
      "uid": "018-17",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "d4380fdbc8eb",
-     "R": "c4df9ab5c27a",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "ee55c1629870",
+     "R": "eddfb9ee21e5",
      "practice": false
     },
     {
      "uid": "018-18",
-     "cell": "orb_erechtheum_270",
-     "L": "17613e2141d1",
-     "R": "c365c1e987eb",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "146033917c21",
+     "R": "d4380fdbc8eb",
      "practice": false
     },
     {
      "uid": "018-19",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "117e6f806ae1",
-     "R": "db99a4dc1c1f",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "8f2a22e2b60a",
+     "R": "9f9574a7d139",
      "practice": false
     }
    ]
@@ -2854,72 +2854,72 @@
     },
     {
      "uid": "019-10",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "acbde5341321",
-     "R": "a1c22da06443",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "558d30e0cb7a",
+     "R": "d62f9e222f19",
      "practice": false
     },
     {
      "uid": "019-11",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "2379d41dec46",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "5fefd83ebace",
+     "R": "20b61709417a",
      "practice": false
     },
     {
      "uid": "019-12",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "1c548e635917",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "74ce55162c0c",
      "practice": false
     },
     {
      "uid": "019-13",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "b7a9be6e1a0f",
-     "R": "620ce462b064",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "bff6b351d71b",
+     "R": "35cd08d98dcb",
      "practice": false
     },
     {
      "uid": "019-14",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "9d1844811cf4",
-     "R": "d06f443841ce",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "db99a4dc1c1f",
+     "R": "8200b3441ce7",
      "practice": false
     },
     {
      "uid": "019-15",
-     "cell": "hs2_palais_de_rumine_lausanne_224",
-     "L": "fe50e3a519ec",
-     "R": "104dbf7c20ff",
+     "cell": "hs2_santa_maria_and_san_donato_m_211",
+     "L": "d9f9b4e01c6a",
+     "R": "c0e6bedc5888",
      "practice": false
     },
     {
      "uid": "019-16",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "ba038f2428db",
-     "R": "dc58d1c6140c",
-     "practice": false
-    },
-    {
-     "uid": "019-17",
      "cell": "orb_cathedral_of_talin_160",
      "L": "36a697460492",
      "R": "c45f8a562581",
      "practice": false
     },
     {
+     "uid": "019-17",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "83eefcf4145b",
+     "R": "61a40850b4db",
+     "practice": false
+    },
+    {
      "uid": "019-18",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "8f2a22e2b60a",
-     "R": "9f9574a7d139",
+     "cell": "hs2_bara_imambara_230",
+     "L": "2379d41dec46",
+     "R": "3490b310d757",
      "practice": false
     },
     {
      "uid": "019-19",
-     "cell": "hs2_bara_imambara_230",
-     "L": "2379d41dec46",
-     "R": "3490b310d757",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "d62f9e222f19",
+     "R": "558d30e0cb7a",
      "practice": false
     }
    ]
@@ -2999,72 +2999,72 @@
     },
     {
      "uid": "020-10",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "e1d5de6f0c32",
-     "R": "35cd08d98dcb",
-     "practice": false
-    },
-    {
-     "uid": "020-11",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "a1c22da06443",
-     "R": "6f0c0e7bbae3",
-     "practice": false
-    },
-    {
-     "uid": "020-12",
      "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "83eefcf4145b",
+     "L": "301e9d765093",
      "R": "61a40850b4db",
      "practice": false
     },
     {
-     "uid": "020-13",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "5fefd83ebace",
-     "R": "20b61709417a",
-     "practice": false
-    },
-    {
-     "uid": "020-14",
+     "uid": "020-11",
      "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "4a4a36e39162",
+     "L": "4a4a36e39162",
+     "R": "3490b310d757",
      "practice": false
     },
     {
-     "uid": "020-15",
-     "cell": "hs2_arenes_de_nimes_226",
-     "L": "beae39ef0f5d",
-     "R": "6b9bd48ed7a9",
-     "practice": false
-    },
-    {
-     "uid": "020-16",
+     "uid": "020-12",
      "cell": "hs2_ancient_roman_theatre_in_mer_87",
      "L": "d2df6b03c661",
      "R": "a66d1e77cb0c",
      "practice": false
     },
     {
+     "uid": "020-13",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
+     "practice": false
+    },
+    {
+     "uid": "020-14",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "4fb39632a8d9",
+     "R": "93a985f0eb8a",
+     "practice": false
+    },
+    {
+     "uid": "020-15",
+     "cell": "hs2_ponte_coperto_pavia_137",
+     "L": "7c1cf47ecf7f",
+     "R": "0f1746db3b67",
+     "practice": false
+    },
+    {
+     "uid": "020-16",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "e1d5de6f0c32",
+     "R": "35cd08d98dcb",
+     "practice": false
+    },
+    {
      "uid": "020-17",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "225d49e4b3d9",
-     "R": "ee55c1629870",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "d4380fdbc8eb",
+     "R": "146033917c21",
      "practice": false
     },
     {
      "uid": "020-18",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "558d30e0cb7a",
-     "R": "d62f9e222f19",
+     "cell": "orb_erechtheum_270",
+     "L": "c365c1e987eb",
+     "R": "64222c3c0280",
      "practice": false
     },
     {
      "uid": "020-19",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "e1d5de6f0c32",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "301e9d765093",
      "practice": false
     }
    ]
@@ -3144,16 +3144,16 @@
     },
     {
      "uid": "021-10",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "942fc6e950ac",
-     "R": "1c129d2bdf92",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "9f9574a7d139",
+     "R": "8f2a22e2b60a",
      "practice": false
     },
     {
      "uid": "021-11",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "ee55c1629870",
-     "R": "e46117ed98e3",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "cd1440969bd4",
+     "R": "d4380fdbc8eb",
      "practice": false
     },
     {
@@ -3172,44 +3172,44 @@
     },
     {
      "uid": "021-14",
-     "cell": "orb_erechtheum_270",
-     "L": "64222c3c0280",
-     "R": "c365c1e987eb",
-     "practice": false
-    },
-    {
-     "uid": "021-15",
-     "cell": "hs2_santa_maria_and_san_donato_m_211",
-     "L": "d9f9b4e01c6a",
-     "R": "c0e6bedc5888",
-     "practice": false
-    },
-    {
-     "uid": "021-16",
      "cell": "hs2_capela_das_almas_porto_87",
      "L": "945579caf6c8",
      "R": "64c783afb842",
      "practice": false
     },
     {
+     "uid": "021-15",
+     "cell": "hs2_george_enescu_museum_64",
+     "L": "f4663f704413",
+     "R": "b4185556190f",
+     "practice": false
+    },
+    {
+     "uid": "021-16",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "acbde5341321",
+     "R": "a1c22da06443",
+     "practice": false
+    },
+    {
      "uid": "021-17",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "725d2bd13e81",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "d255ee770092",
      "practice": false
     },
     {
      "uid": "021-18",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "9f9574a7d139",
-     "R": "8f2a22e2b60a",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "43d2816d0bee",
      "practice": false
     },
     {
      "uid": "021-19",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "942fc6e950ac",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "8f2a22e2b60a",
+     "R": "9f9574a7d139",
      "practice": false
     }
    ]
@@ -3289,72 +3289,72 @@
     },
     {
      "uid": "022-10",
-     "cell": "orb_erechtheum_270",
-     "L": "c365c1e987eb",
-     "R": "eb17dd7715a6",
-     "practice": false
-    },
-    {
-     "uid": "022-11",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "2988685ae149",
-     "R": "1c129d2bdf92",
-     "practice": false
-    },
-    {
-     "uid": "022-12",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "74ce55162c0c",
-     "practice": false
-    },
-    {
-     "uid": "022-13",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "241a59905f92",
-     "R": "56d4e757bf11",
-     "practice": false
-    },
-    {
-     "uid": "022-14",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "a1c22da06443",
-     "R": "9d22c1efd6ac",
-     "practice": false
-    },
-    {
-     "uid": "022-15",
-     "cell": "hs2_george_enescu_museum_64",
-     "L": "b4185556190f",
-     "R": "f4663f704413",
-     "practice": false
-    },
-    {
-     "uid": "022-16",
      "cell": "hs2_ancient_roman_theatre_aosta_50",
      "L": "620ce462b064",
      "R": "43d2816d0bee",
      "practice": false
     },
     {
+     "uid": "022-11",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "86c89aeb0c06",
+     "practice": false
+    },
+    {
+     "uid": "022-12",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "175b81ee9404",
+     "practice": false
+    },
+    {
+     "uid": "022-13",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "9d1844811cf4",
+     "R": "d06f443841ce",
+     "practice": false
+    },
+    {
+     "uid": "022-14",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "ee55c1629870",
+     "R": "225d49e4b3d9",
+     "practice": false
+    },
+    {
+     "uid": "022-15",
+     "cell": "hs2_arenes_de_nimes_226",
+     "L": "beae39ef0f5d",
+     "R": "6b9bd48ed7a9",
+     "practice": false
+    },
+    {
+     "uid": "022-16",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "8f2a22e2b60a",
+     "R": "9f9574a7d139",
+     "practice": false
+    },
+    {
      "uid": "022-17",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "d691ecf79924",
-     "R": "00508ab3e383",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "558d30e0cb7a",
+     "R": "d62f9e222f19",
      "practice": false
     },
     {
      "uid": "022-18",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "bff6b351d71b",
-     "R": "35cd08d98dcb",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "74ce55162c0c",
+     "R": "d2df6b03c661",
      "practice": false
     },
     {
      "uid": "022-19",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "2988685ae149",
+     "cell": "orb_whitby_abbey_156",
+     "L": "86c89aeb0c06",
+     "R": "d15ef13e4510",
      "practice": false
     }
    ]
@@ -3434,72 +3434,72 @@
     },
     {
      "uid": "023-10",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "d255ee770092",
-     "R": "1c129d2bdf92",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "d4380fdbc8eb",
+     "R": "c4df9ab5c27a",
      "practice": false
     },
     {
      "uid": "023-11",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "66fb5e6822b0",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "4961b95ea8bf",
+     "R": "d06f443841ce",
      "practice": false
     },
     {
      "uid": "023-12",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "cd1440969bd4",
-     "R": "d4380fdbc8eb",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "117e6f806ae1",
+     "R": "db99a4dc1c1f",
      "practice": false
     },
     {
      "uid": "023-13",
-     "cell": "orb_erechtheum_270",
-     "L": "17613e2141d1",
-     "R": "c365c1e987eb",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "ba038f2428db",
+     "R": "dc58d1c6140c",
      "practice": false
     },
     {
      "uid": "023-14",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "e46117ed98e3",
+     "R": "ee55c1629870",
+     "practice": false
+    },
+    {
+     "uid": "023-15",
+     "cell": "hs2_palais_de_rumine_lausanne_224",
+     "L": "104dbf7c20ff",
+     "R": "fe50e3a519ec",
+     "practice": false
+    },
+    {
+     "uid": "023-16",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "83eefcf4145b",
+     "R": "61a40850b4db",
+     "practice": false
+    },
+    {
+     "uid": "023-17",
      "cell": "hs2_sat_gambuj_mosque_372",
      "L": "782c35807c44",
      "R": "c98309b01545",
      "practice": false
     },
     {
-     "uid": "023-15",
-     "cell": "hs2_cathedral_of_christ_the_savi_92",
-     "L": "334b164f5abb",
-     "R": "48cf7600cdf5",
-     "practice": false
-    },
-    {
-     "uid": "023-16",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "e9b7e59466fb",
-     "practice": false
-    },
-    {
-     "uid": "023-17",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "93a985f0eb8a",
-     "R": "4fb39632a8d9",
-     "practice": false
-    },
-    {
      "uid": "023-18",
      "cell": "orb_whitby_abbey_156",
-     "L": "0be1d7b82818",
-     "R": "d15ef13e4510",
+     "L": "d15ef13e4510",
+     "R": "6456b629ebb3",
      "practice": false
     },
     {
      "uid": "023-19",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "d255ee770092",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "c4df9ab5c27a",
+     "R": "d4380fdbc8eb",
      "practice": false
     }
    ]
@@ -3579,37 +3579,37 @@
     },
     {
      "uid": "024-10",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "725d2bd13e81",
-     "practice": false
-    },
-    {
-     "uid": "024-11",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "b7a9be6e1a0f",
-     "R": "620ce462b064",
-     "practice": false
-    },
-    {
-     "uid": "024-12",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "4961b95ea8bf",
-     "R": "d06f443841ce",
-     "practice": false
-    },
-    {
-     "uid": "024-13",
      "cell": "hs2_ponte_pietra_verona_70",
      "L": "00508ab3e383",
      "R": "d691ecf79924",
      "practice": false
     },
     {
+     "uid": "024-11",
+     "cell": "orb_erechtheum_270",
+     "L": "c365c1e987eb",
+     "R": "eb17dd7715a6",
+     "practice": false
+    },
+    {
+     "uid": "024-12",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "725d2bd13e81",
+     "practice": false
+    },
+    {
+     "uid": "024-13",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "d62f9e222f19",
+     "R": "558d30e0cb7a",
+     "practice": false
+    },
+    {
      "uid": "024-14",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "61a40850b4db",
-     "R": "301e9d765093",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "b7a9be6e1a0f",
+     "R": "620ce462b064",
      "practice": false
     },
     {
@@ -3621,30 +3621,30 @@
     },
     {
      "uid": "024-16",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "a1c22da06443",
-     "R": "531b1ba0ecd8",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "301e9d765093",
      "practice": false
     },
     {
      "uid": "024-17",
      "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "eddfb9ee21e5",
+     "L": "90a29a5ce5cc",
      "R": "ee55c1629870",
      "practice": false
     },
     {
      "uid": "024-18",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "9f9574a7d139",
-     "R": "8f2a22e2b60a",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "80d970653c76",
+     "R": "1c129d2bdf92",
      "practice": false
     },
     {
      "uid": "024-19",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "725d2bd13e81",
-     "R": "d2df6b03c661",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
      "practice": false
     }
    ]
@@ -3724,72 +3724,72 @@
     },
     {
      "uid": "025-10",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "3388cea5e334",
-     "R": "d4380fdbc8eb",
+     "cell": "hs2_bara_imambara_230",
+     "L": "4a4a36e39162",
+     "R": "3490b310d757",
      "practice": false
     },
     {
      "uid": "025-11",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "80d970653c76",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "8f2a22e2b60a",
+     "R": "9f9574a7d139",
      "practice": false
     },
     {
      "uid": "025-12",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "ee2832f2b877",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "a1c22da06443",
+     "R": "9d22c1efd6ac",
      "practice": false
     },
     {
      "uid": "025-13",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "0be1d7b82818",
+     "practice": false
+    },
+    {
+     "uid": "025-14",
      "cell": "hs2_ancient_roman_theatre_aosta_50",
      "L": "b7a9be6e1a0f",
      "R": "620ce462b064",
      "practice": false
     },
     {
-     "uid": "025-14",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "2379d41dec46",
-     "practice": false
-    },
-    {
      "uid": "025-15",
-     "cell": "hs2_santa_maria_and_san_donato_m_211",
-     "L": "d9f9b4e01c6a",
-     "R": "c0e6bedc5888",
+     "cell": "hs2_ponte_coperto_pavia_137",
+     "L": "7c1cf47ecf7f",
+     "R": "0f1746db3b67",
      "practice": false
     },
     {
      "uid": "025-16",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "241a59905f92",
-     "R": "56d4e757bf11",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "a4683502ba04",
+     "R": "db99a4dc1c1f",
      "practice": false
     },
     {
      "uid": "025-17",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "83eefcf4145b",
-     "R": "61a40850b4db",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "2988685ae149",
      "practice": false
     },
     {
      "uid": "025-18",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "4fb39632a8d9",
-     "R": "93a985f0eb8a",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "dc58d1c6140c",
+     "R": "ba038f2428db",
      "practice": false
     },
     {
      "uid": "025-19",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "80d970653c76",
-     "R": "1c129d2bdf92",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "9f9574a7d139",
+     "R": "8f2a22e2b60a",
      "practice": false
     }
    ]
@@ -3876,16 +3876,16 @@
     },
     {
      "uid": "026-11",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "6f0773a399c7",
-     "R": "620ce462b064",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "002af1a54270",
+     "R": "d2df6b03c661",
      "practice": false
     },
     {
      "uid": "026-12",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "8eafd7fd6105",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "ee55c1629870",
+     "R": "225d49e4b3d9",
      "practice": false
     },
     {
@@ -3897,23 +3897,23 @@
     },
     {
      "uid": "026-14",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "8200b3441ce7",
+     "cell": "hs2_bara_imambara_230",
+     "L": "3490b310d757",
+     "R": "dc2b0f6d0a8a",
      "practice": false
     },
     {
      "uid": "026-15",
-     "cell": "hs2_ponte_coperto_pavia_137",
-     "L": "7c1cf47ecf7f",
-     "R": "0f1746db3b67",
+     "cell": "hs2_cathedral_of_cusco_10",
+     "L": "af7534e5f301",
+     "R": "92d450adfcb7",
      "practice": false
     },
     {
      "uid": "026-16",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "945579caf6c8",
-     "R": "64c783afb842",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "4fb39632a8d9",
+     "R": "93a985f0eb8a",
      "practice": false
     },
     {
@@ -3925,16 +3925,16 @@
     },
     {
      "uid": "026-18",
-     "cell": "hs2_bara_imambara_230",
-     "L": "4a4a36e39162",
-     "R": "3490b310d757",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "e9b7e59466fb",
+     "R": "db99a4dc1c1f",
      "practice": false
     },
     {
      "uid": "026-19",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "6f0773a399c7",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "002af1a54270",
      "practice": false
     }
    ]
@@ -4014,72 +4014,72 @@
     },
     {
      "uid": "027-10",
-     "cell": "orb_erechtheum_270",
-     "L": "64222c3c0280",
-     "R": "c365c1e987eb",
-     "practice": false
-    },
-    {
-     "uid": "027-11",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "146033917c21",
-     "R": "d4380fdbc8eb",
-     "practice": false
-    },
-    {
-     "uid": "027-12",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "e1d5de6f0c32",
-     "practice": false
-    },
-    {
-     "uid": "027-13",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "56d4e757bf11",
-     "R": "241a59905f92",
-     "practice": false
-    },
-    {
-     "uid": "027-14",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "725d2bd13e81",
-     "practice": false
-    },
-    {
-     "uid": "027-15",
-     "cell": "hs2_cathedral_of_cusco_10",
-     "L": "92d450adfcb7",
-     "R": "af7534e5f301",
-     "practice": false
-    },
-    {
-     "uid": "027-16",
      "cell": "hs2_ancient_roman_theatre_aosta_50",
      "L": "9d4d21e9899f",
      "R": "620ce462b064",
      "practice": false
     },
     {
+     "uid": "027-11",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "acbde5341321",
+     "R": "a1c22da06443",
+     "practice": false
+    },
+    {
+     "uid": "027-12",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "9f9574a7d139",
+     "R": "8f2a22e2b60a",
+     "practice": false
+    },
+    {
+     "uid": "027-13",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "d06f443841ce",
+     "R": "8eafd7fd6105",
+     "practice": false
+    },
+    {
+     "uid": "027-14",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
+     "practice": false
+    },
+    {
+     "uid": "027-15",
+     "cell": "hs2_cathedral_of_christ_the_savi_92",
+     "L": "334b164f5abb",
+     "R": "48cf7600cdf5",
+     "practice": false
+    },
+    {
+     "uid": "027-16",
+     "cell": "hs2_bara_imambara_230",
+     "L": "3490b310d757",
+     "R": "3e5048b16bea",
+     "practice": false
+    },
+    {
      "uid": "027-17",
      "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "9893559d98fa",
+     "L": "9893559d98fa",
+     "R": "c45f8a562581",
      "practice": false
     },
     {
      "uid": "027-18",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "558d30e0cb7a",
-     "R": "d62f9e222f19",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "725d2bd13e81",
      "practice": false
     },
     {
      "uid": "027-19",
-     "cell": "orb_erechtheum_270",
-     "L": "c365c1e987eb",
-     "R": "64222c3c0280",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "a1c22da06443",
+     "R": "acbde5341321",
      "practice": false
     }
    ]
@@ -4159,51 +4159,51 @@
     },
     {
      "uid": "028-10",
-     "cell": "orb_whitby_abbey_156",
-     "L": "86c89aeb0c06",
-     "R": "d15ef13e4510",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "342ab3430db9",
+     "R": "61a40850b4db",
      "practice": false
     },
     {
      "uid": "028-11",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "ba038f2428db",
-     "R": "dc58d1c6140c",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "5fefd83ebace",
+     "R": "20b61709417a",
      "practice": false
     },
     {
      "uid": "028-12",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "a1c22da06443",
-     "R": "6f0c0e7bbae3",
+     "cell": "orb_erechtheum_270",
+     "L": "c365c1e987eb",
+     "R": "17613e2141d1",
      "practice": false
     },
     {
      "uid": "028-13",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "9d1844811cf4",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "66fb5e6822b0",
+     "R": "35cd08d98dcb",
      "practice": false
     },
     {
      "uid": "028-14",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "dc2b0f6d0a8a",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "db99a4dc1c1f",
+     "R": "8200b3441ce7",
      "practice": false
     },
     {
      "uid": "028-15",
-     "cell": "hs2_compania_de_jesus_cusco_85",
-     "L": "5d52bdbd7c40",
-     "R": "74efca2236a2",
+     "cell": "hs2_arenes_de_nimes_226",
+     "L": "6b9bd48ed7a9",
+     "R": "beae39ef0f5d",
      "practice": false
     },
     {
      "uid": "028-16",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "117e6f806ae1",
-     "R": "db99a4dc1c1f",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "ee55c1629870",
+     "R": "eddfb9ee21e5",
      "practice": false
     },
     {
@@ -4215,16 +4215,16 @@
     },
     {
      "uid": "028-18",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "8f2a22e2b60a",
-     "R": "9f9574a7d139",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "558d30e0cb7a",
+     "R": "d62f9e222f19",
      "practice": false
     },
     {
      "uid": "028-19",
-     "cell": "orb_whitby_abbey_156",
-     "L": "d15ef13e4510",
-     "R": "86c89aeb0c06",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "342ab3430db9",
      "practice": false
     }
    ]
@@ -4304,9 +4304,9 @@
     },
     {
      "uid": "029-10",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "acbde5341321",
-     "R": "a1c22da06443",
+     "cell": "orb_erechtheum_270",
+     "L": "64222c3c0280",
+     "R": "c365c1e987eb",
      "practice": false
     },
     {
@@ -4332,9 +4332,9 @@
     },
     {
      "uid": "029-14",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "66fb5e6822b0",
+     "cell": "hs2_bara_imambara_230",
+     "L": "3490b310d757",
+     "R": "2379d41dec46",
      "practice": false
     },
     {
@@ -4346,9 +4346,9 @@
     },
     {
      "uid": "029-16",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "bf5fa9f5541a",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "35cd08d98dcb",
+     "R": "e1d5de6f0c32",
      "practice": false
     },
     {
@@ -4360,16 +4360,16 @@
     },
     {
      "uid": "029-18",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "175b81ee9404",
-     "R": "61a40850b4db",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "ee2832f2b877",
+     "R": "c45f8a562581",
      "practice": false
     },
     {
      "uid": "029-19",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "a1c22da06443",
-     "R": "acbde5341321",
+     "cell": "orb_erechtheum_270",
+     "L": "c365c1e987eb",
+     "R": "64222c3c0280",
      "practice": false
     }
    ]
@@ -4449,16 +4449,16 @@
     },
     {
      "uid": "030-10",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "225d49e4b3d9",
-     "R": "ee55c1629870",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "117e6f806ae1",
+     "R": "db99a4dc1c1f",
      "practice": false
     },
     {
      "uid": "030-11",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "20b61709417a",
-     "R": "5fefd83ebace",
+     "cell": "hs2_capela_das_almas_porto_87",
+     "L": "945579caf6c8",
+     "R": "64c783afb842",
      "practice": false
     },
     {
@@ -4484,9 +4484,9 @@
     },
     {
      "uid": "030-15",
-     "cell": "hs2_cathedral_of_christ_the_savi_92",
-     "L": "334b164f5abb",
-     "R": "48cf7600cdf5",
+     "cell": "hs2_compania_de_jesus_cusco_85",
+     "L": "74efca2236a2",
+     "R": "5d52bdbd7c40",
      "practice": false
     },
     {
@@ -4512,9 +4512,9 @@
     },
     {
      "uid": "030-19",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "5fefd83ebace",
-     "R": "20b61709417a",
+     "cell": "hs2_capela_das_almas_porto_87",
+     "L": "64c783afb842",
+     "R": "945579caf6c8",
      "practice": false
     }
    ]
@@ -4601,16 +4601,16 @@
     },
     {
      "uid": "031-11",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "5fefd83ebace",
-     "R": "20b61709417a",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "93a985f0eb8a",
+     "R": "4fb39632a8d9",
      "practice": false
     },
     {
      "uid": "031-12",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "56d4e757bf11",
-     "R": "241a59905f92",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
      "practice": false
     },
     {
@@ -4629,16 +4629,16 @@
     },
     {
      "uid": "031-15",
-     "cell": "hs2_arenes_de_nimes_226",
-     "L": "beae39ef0f5d",
-     "R": "6b9bd48ed7a9",
+     "cell": "hs2_santa_maria_and_san_donato_m_211",
+     "L": "d9f9b4e01c6a",
+     "R": "c0e6bedc5888",
      "practice": false
     },
     {
      "uid": "031-16",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "e9b7e59466fb",
-     "R": "db99a4dc1c1f",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "c4df9ab5c27a",
+     "R": "d4380fdbc8eb",
      "practice": false
     },
     {
@@ -4657,9 +4657,9 @@
     },
     {
      "uid": "031-19",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "20b61709417a",
-     "R": "5fefd83ebace",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "4fb39632a8d9",
+     "R": "93a985f0eb8a",
      "practice": false
     }
    ]
@@ -4753,9 +4753,9 @@
     },
     {
      "uid": "032-12",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "ee55c1629870",
-     "R": "eddfb9ee21e5",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "d06f443841ce",
+     "R": "9d1844811cf4",
      "practice": false
     },
     {
@@ -4891,30 +4891,30 @@
     },
     {
      "uid": "033-11",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "e9b7e59466fb",
-     "R": "db99a4dc1c1f",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "80d970653c76",
+     "R": "1c129d2bdf92",
      "practice": false
     },
     {
      "uid": "033-12",
-     "cell": "orb_whitby_abbey_156",
-     "L": "d15ef13e4510",
-     "R": "caa48d6ad78a",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "a1c22da06443",
+     "R": "9d22c1efd6ac",
      "practice": false
     },
     {
      "uid": "033-13",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "00508ab3e383",
-     "R": "d691ecf79924",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "9f9574a7d139",
+     "R": "8f2a22e2b60a",
      "practice": false
     },
     {
      "uid": "033-14",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "301e9d765093",
-     "R": "61a40850b4db",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "9893559d98fa",
+     "R": "c45f8a562581",
      "practice": false
     },
     {
@@ -4926,9 +4926,9 @@
     },
     {
      "uid": "033-16",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "2988685ae149",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "d4380fdbc8eb",
+     "R": "146033917c21",
      "practice": false
     },
     {
@@ -4947,9 +4947,9 @@
     },
     {
      "uid": "033-19",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "e9b7e59466fb",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "80d970653c76",
      "practice": false
     }
    ]
@@ -5029,16 +5029,16 @@
     },
     {
      "uid": "034-10",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "2988685ae149",
-     "R": "1c129d2bdf92",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "b7a9be6e1a0f",
+     "R": "620ce462b064",
      "practice": false
     },
     {
      "uid": "034-11",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "d691ecf79924",
-     "R": "00508ab3e383",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "90a29a5ce5cc",
+     "R": "ee55c1629870",
      "practice": false
     },
     {
@@ -5057,9 +5057,9 @@
     },
     {
      "uid": "034-14",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "bff6b351d71b",
+     "cell": "hs2_bara_imambara_230",
+     "L": "3490b310d757",
+     "R": "2379d41dec46",
      "practice": false
     },
     {
@@ -5071,30 +5071,30 @@
     },
     {
      "uid": "034-16",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "90a29a5ce5cc",
-     "R": "ee55c1629870",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "d06f443841ce",
+     "R": "9d1844811cf4",
      "practice": false
     },
     {
      "uid": "034-17",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "b7a9be6e1a0f",
-     "practice": false
-    },
-    {
-     "uid": "034-18",
      "cell": "orb_cathedral_of_talin_160",
      "L": "c45f8a562581",
      "R": "b1540d6ab9ee",
      "practice": false
     },
     {
+     "uid": "034-18",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
+     "practice": false
+    },
+    {
      "uid": "034-19",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "2988685ae149",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "b7a9be6e1a0f",
      "practice": false
     }
    ]
@@ -5174,9 +5174,9 @@
     },
     {
      "uid": "035-10",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "56d4e757bf11",
-     "R": "241a59905f92",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
      "practice": false
     },
     {
@@ -5195,9 +5195,9 @@
     },
     {
      "uid": "035-13",
-     "cell": "orb_whitby_abbey_156",
-     "L": "6456b629ebb3",
-     "R": "d15ef13e4510",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "6f0c0e7bbae3",
+     "R": "a1c22da06443",
      "practice": false
     },
     {
@@ -5230,16 +5230,16 @@
     },
     {
      "uid": "035-18",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "8eafd7fd6105",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "d4380fdbc8eb",
+     "R": "146033917c21",
      "practice": false
     },
     {
      "uid": "035-19",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "241a59905f92",
-     "R": "56d4e757bf11",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
      "practice": false
     }
    ]
@@ -5319,9 +5319,9 @@
     },
     {
      "uid": "036-10",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "225d49e4b3d9",
-     "R": "ee55c1629870",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "8f2a22e2b60a",
+     "R": "9f9574a7d139",
      "practice": false
     },
     {
@@ -5333,16 +5333,16 @@
     },
     {
      "uid": "036-12",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "80d970653c76",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "ee55c1629870",
+     "R": "eddfb9ee21e5",
      "practice": false
     },
     {
      "uid": "036-13",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "9893559d98fa",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "301e9d765093",
      "practice": false
     },
     {
@@ -5361,23 +5361,23 @@
     },
     {
      "uid": "036-16",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "93a985f0eb8a",
-     "R": "4fb39632a8d9",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "db99a4dc1c1f",
+     "R": "a4683502ba04",
      "practice": false
     },
     {
      "uid": "036-17",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "3e5048b16bea",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "8eafd7fd6105",
+     "R": "d06f443841ce",
      "practice": false
     },
     {
      "uid": "036-18",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "8f2a22e2b60a",
-     "R": "9f9574a7d139",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "5fefd83ebace",
+     "R": "20b61709417a",
      "practice": false
     },
     {
@@ -5464,16 +5464,16 @@
     },
     {
      "uid": "037-10",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "531b1ba0ecd8",
-     "R": "a1c22da06443",
+     "cell": "orb_whitby_abbey_156",
+     "L": "caa48d6ad78a",
+     "R": "d15ef13e4510",
      "practice": false
     },
     {
      "uid": "037-11",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "2379d41dec46",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "531b1ba0ecd8",
+     "R": "a1c22da06443",
      "practice": false
     },
     {
@@ -5485,44 +5485,44 @@
     },
     {
      "uid": "037-13",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "175b81ee9404",
-     "R": "61a40850b4db",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "ee55c1629870",
+     "R": "225d49e4b3d9",
      "practice": false
     },
     {
      "uid": "037-14",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "56d4e757bf11",
-     "R": "241a59905f92",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "558d30e0cb7a",
+     "R": "d62f9e222f19",
      "practice": false
     },
     {
      "uid": "037-15",
      "cell": "hs2_george_enescu_museum_64",
-     "L": "f4663f704413",
-     "R": "b4185556190f",
+     "L": "b4185556190f",
+     "R": "f4663f704413",
      "practice": false
     },
     {
      "uid": "037-16",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "d691ecf79924",
-     "R": "00508ab3e383",
+     "cell": "hs2_bara_imambara_230",
+     "L": "3490b310d757",
+     "R": "4a4a36e39162",
      "practice": false
     },
     {
      "uid": "037-17",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "74ce55162c0c",
-     "R": "d2df6b03c661",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
      "practice": false
     },
     {
      "uid": "037-18",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "9d1844811cf4",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "74ce55162c0c",
+     "R": "d2df6b03c661",
      "practice": false
     },
     {
@@ -5609,72 +5609,72 @@
     },
     {
      "uid": "038-10",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "4a4a36e39162",
-     "practice": false
-    },
-    {
-     "uid": "038-11",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "1c548e635917",
-     "R": "35cd08d98dcb",
-     "practice": false
-    },
-    {
-     "uid": "038-12",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "117e6f806ae1",
-     "R": "db99a4dc1c1f",
-     "practice": false
-    },
-    {
-     "uid": "038-13",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "61a40850b4db",
-     "R": "301e9d765093",
-     "practice": false
-    },
-    {
-     "uid": "038-14",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "ee55c1629870",
-     "R": "e46117ed98e3",
-     "practice": false
-    },
-    {
-     "uid": "038-15",
-     "cell": "hs2_compania_de_jesus_cusco_85",
-     "L": "5d52bdbd7c40",
-     "R": "74efca2236a2",
-     "practice": false
-    },
-    {
-     "uid": "038-16",
      "cell": "orb_whitby_abbey_156",
-     "L": "0be1d7b82818",
+     "L": "6456b629ebb3",
      "R": "d15ef13e4510",
      "practice": false
     },
     {
-     "uid": "038-17",
+     "uid": "038-11",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "2988685ae149",
+     "practice": false
+    },
+    {
+     "uid": "038-12",
+     "cell": "orb_erechtheum_270",
+     "L": "64222c3c0280",
+     "R": "c365c1e987eb",
+     "practice": false
+    },
+    {
+     "uid": "038-13",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "35cd08d98dcb",
+     "R": "bff6b351d71b",
+     "practice": false
+    },
+    {
+     "uid": "038-14",
+     "cell": "hs2_capela_das_almas_porto_87",
+     "L": "945579caf6c8",
+     "R": "64c783afb842",
+     "practice": false
+    },
+    {
+     "uid": "038-15",
+     "cell": "hs2_santa_maria_and_san_donato_m_211",
+     "L": "c0e6bedc5888",
+     "R": "d9f9b4e01c6a",
+     "practice": false
+    },
+    {
+     "uid": "038-16",
      "cell": "hs2_fulda_cathedral_166",
      "L": "5fefd83ebace",
      "R": "20b61709417a",
      "practice": false
     },
     {
+     "uid": "038-17",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "d06f443841ce",
+     "R": "bf5fa9f5541a",
+     "practice": false
+    },
+    {
      "uid": "038-18",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "dc58d1c6140c",
-     "R": "ba038f2428db",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "90a29a5ce5cc",
+     "R": "ee55c1629870",
      "practice": false
     },
     {
      "uid": "038-19",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "1c548e635917",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "2988685ae149",
+     "R": "1c129d2bdf92",
      "practice": false
     }
    ]
@@ -5754,72 +5754,72 @@
     },
     {
      "uid": "039-10",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "d62f9e222f19",
-     "R": "558d30e0cb7a",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "43d2816d0bee",
      "practice": false
     },
     {
      "uid": "039-11",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "b7a9be6e1a0f",
-     "practice": false
-    },
-    {
-     "uid": "039-12",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "66fb5e6822b0",
-     "R": "35cd08d98dcb",
-     "practice": false
-    },
-    {
-     "uid": "039-13",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "ee2832f2b877",
-     "practice": false
-    },
-    {
-     "uid": "039-14",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "d4380fdbc8eb",
-     "R": "c4df9ab5c27a",
-     "practice": false
-    },
-    {
-     "uid": "039-15",
-     "cell": "hs2_santa_maria_and_san_donato_m_211",
-     "L": "c0e6bedc5888",
-     "R": "d9f9b4e01c6a",
-     "practice": false
-    },
-    {
-     "uid": "039-16",
      "cell": "orb_temple_of_zeus_in_athens_450",
      "L": "342ab3430db9",
      "R": "61a40850b4db",
      "practice": false
     },
     {
-     "uid": "039-17",
+     "uid": "039-12",
      "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "8f2a22e2b60a",
-     "R": "9f9574a7d139",
+     "L": "9f9574a7d139",
+     "R": "8f2a22e2b60a",
      "practice": false
     },
     {
-     "uid": "039-18",
+     "uid": "039-13",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "558d30e0cb7a",
+     "R": "d62f9e222f19",
+     "practice": false
+    },
+    {
+     "uid": "039-14",
+     "cell": "hs2_bara_imambara_230",
+     "L": "3490b310d757",
+     "R": "2379d41dec46",
+     "practice": false
+    },
+    {
+     "uid": "039-15",
+     "cell": "hs2_compania_de_jesus_cusco_85",
+     "L": "74efca2236a2",
+     "R": "5d52bdbd7c40",
+     "practice": false
+    },
+    {
+     "uid": "039-16",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "e9b7e59466fb",
+     "R": "db99a4dc1c1f",
+     "practice": false
+    },
+    {
+     "uid": "039-17",
      "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "725d2bd13e81",
+     "L": "74ce55162c0c",
      "R": "d2df6b03c661",
      "practice": false
     },
     {
+     "uid": "039-18",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "c45f8a562581",
+     "R": "ee2832f2b877",
+     "practice": false
+    },
+    {
      "uid": "039-19",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "558d30e0cb7a",
-     "R": "d62f9e222f19",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "43d2816d0bee",
+     "R": "620ce462b064",
      "practice": false
     }
    ]
@@ -5900,71 +5900,71 @@
     {
      "uid": "040-10",
      "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "d62f9e222f19",
-     "R": "558d30e0cb7a",
+     "L": "ba038f2428db",
+     "R": "dc58d1c6140c",
      "practice": false
     },
     {
      "uid": "040-11",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "74ce55162c0c",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "301e9d765093",
      "practice": false
     },
     {
      "uid": "040-12",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "cd1440969bd4",
-     "R": "d4380fdbc8eb",
-     "practice": false
-    },
-    {
-     "uid": "040-13",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "61a40850b4db",
-     "R": "83eefcf4145b",
-     "practice": false
-    },
-    {
-     "uid": "040-14",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "945579caf6c8",
-     "R": "64c783afb842",
-     "practice": false
-    },
-    {
-     "uid": "040-15",
-     "cell": "hs2_cathedral_of_christ_the_savi_92",
-     "L": "48cf7600cdf5",
-     "R": "334b164f5abb",
-     "practice": false
-    },
-    {
-     "uid": "040-16",
-     "cell": "orb_erechtheum_270",
-     "L": "17613e2141d1",
-     "R": "c365c1e987eb",
-     "practice": false
-    },
-    {
-     "uid": "040-17",
      "cell": "hs2_bara_imambara_230",
      "L": "3490b310d757",
      "R": "4a4a36e39162",
      "practice": false
     },
     {
+     "uid": "040-13",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
+     "practice": false
+    },
+    {
+     "uid": "040-14",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "b7a9be6e1a0f",
+     "R": "620ce462b064",
+     "practice": false
+    },
+    {
+     "uid": "040-15",
+     "cell": "hs2_ponte_coperto_pavia_137",
+     "L": "0f1746db3b67",
+     "R": "7c1cf47ecf7f",
+     "practice": false
+    },
+    {
+     "uid": "040-16",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "e46117ed98e3",
+     "R": "ee55c1629870",
+     "practice": false
+    },
+    {
+     "uid": "040-17",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "cd1440969bd4",
+     "R": "d4380fdbc8eb",
+     "practice": false
+    },
+    {
      "uid": "040-18",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "d255ee770092",
-     "R": "1c129d2bdf92",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "c45f8a562581",
+     "R": "b1540d6ab9ee",
      "practice": false
     },
     {
      "uid": "040-19",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "558d30e0cb7a",
-     "R": "d62f9e222f19",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "301e9d765093",
+     "R": "61a40850b4db",
      "practice": false
     }
    ]
@@ -6044,72 +6044,72 @@
     },
     {
      "uid": "041-10",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "8eafd7fd6105",
-     "R": "d06f443841ce",
+     "cell": "orb_erechtheum_270",
+     "L": "c365c1e987eb",
+     "R": "17613e2141d1",
      "practice": false
     },
     {
      "uid": "041-11",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "725d2bd13e81",
-     "R": "d2df6b03c661",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "8f2a22e2b60a",
+     "R": "9f9574a7d139",
      "practice": false
     },
     {
      "uid": "041-12",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "ee55c1629870",
-     "R": "90a29a5ce5cc",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "93a985f0eb8a",
+     "R": "4fb39632a8d9",
      "practice": false
     },
     {
      "uid": "041-13",
      "cell": "hs2_fulda_cathedral_166",
      "L": "d4380fdbc8eb",
-     "R": "3388cea5e334",
+     "R": "cd1440969bd4",
      "practice": false
     },
     {
      "uid": "041-14",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "241a59905f92",
-     "R": "56d4e757bf11",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "725d2bd13e81",
+     "R": "d2df6b03c661",
      "practice": false
     },
     {
      "uid": "041-15",
-     "cell": "hs2_santa_maria_and_san_donato_m_211",
-     "L": "d9f9b4e01c6a",
-     "R": "c0e6bedc5888",
+     "cell": "hs2_george_enescu_museum_64",
+     "L": "b4185556190f",
+     "R": "f4663f704413",
      "practice": false
     },
     {
      "uid": "041-16",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "782c35807c44",
-     "R": "c98309b01545",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "117e6f806ae1",
+     "R": "db99a4dc1c1f",
      "practice": false
     },
     {
      "uid": "041-17",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "b1540d6ab9ee",
-     "R": "c45f8a562581",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "d255ee770092",
      "practice": false
     },
     {
      "uid": "041-18",
-     "cell": "orb_whitby_abbey_156",
-     "L": "d15ef13e4510",
-     "R": "6456b629ebb3",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "acbde5341321",
+     "R": "a1c22da06443",
      "practice": false
     },
     {
      "uid": "041-19",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "725d2bd13e81",
+     "cell": "orb_erechtheum_270",
+     "L": "17613e2141d1",
+     "R": "c365c1e987eb",
      "practice": false
     }
    ]
@@ -6196,30 +6196,30 @@
     },
     {
      "uid": "042-11",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "a1c22da06443",
-     "R": "acbde5341321",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "83eefcf4145b",
      "practice": false
     },
     {
      "uid": "042-12",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "d4380fdbc8eb",
-     "R": "146033917c21",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "a1c22da06443",
+     "R": "6f0c0e7bbae3",
      "practice": false
     },
     {
      "uid": "042-13",
      "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "9d4d21e9899f",
+     "L": "6f0773a399c7",
      "R": "620ce462b064",
      "practice": false
     },
     {
      "uid": "042-14",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "00508ab3e383",
-     "R": "d691ecf79924",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "a66d1e77cb0c",
+     "R": "d2df6b03c661",
      "practice": false
     },
     {
@@ -6231,30 +6231,30 @@
     },
     {
      "uid": "042-16",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "9893559d98fa",
-     "R": "c45f8a562581",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "66fb5e6822b0",
+     "R": "35cd08d98dcb",
      "practice": false
     },
     {
      "uid": "042-17",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "e9b7e59466fb",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "d62f9e222f19",
+     "R": "558d30e0cb7a",
      "practice": false
     },
     {
      "uid": "042-18",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "002af1a54270",
-     "R": "d2df6b03c661",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "80d970653c76",
      "practice": false
     },
     {
      "uid": "042-19",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "8f2a22e2b60a",
-     "R": "9f9574a7d139",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "83eefcf4145b",
+     "R": "61a40850b4db",
      "practice": false
     }
    ]
@@ -6334,72 +6334,72 @@
     },
     {
      "uid": "043-10",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "b7a9be6e1a0f",
-     "R": "620ce462b064",
-     "practice": false
-    },
-    {
-     "uid": "043-11",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "36a697460492",
-     "practice": false
-    },
-    {
-     "uid": "043-12",
      "cell": "hs2_the_iron_bridge_117",
      "L": "bff6b351d71b",
      "R": "35cd08d98dcb",
      "practice": false
     },
     {
-     "uid": "043-13",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "d4380fdbc8eb",
-     "R": "146033917c21",
+     "uid": "043-11",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "e9b7e59466fb",
+     "R": "db99a4dc1c1f",
      "practice": false
     },
     {
-     "uid": "043-14",
+     "uid": "043-12",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "ee55c1629870",
+     "R": "225d49e4b3d9",
+     "practice": false
+    },
+    {
+     "uid": "043-13",
      "cell": "hs2_ponte_pietra_verona_70",
      "L": "d691ecf79924",
      "R": "00508ab3e383",
      "practice": false
     },
     {
+     "uid": "043-14",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "c98309b01545",
+     "R": "782c35807c44",
+     "practice": false
+    },
+    {
      "uid": "043-15",
-     "cell": "hs2_ponte_coperto_pavia_137",
-     "L": "0f1746db3b67",
-     "R": "7c1cf47ecf7f",
+     "cell": "hs2_palais_de_rumine_lausanne_224",
+     "L": "104dbf7c20ff",
+     "R": "fe50e3a519ec",
      "practice": false
     },
     {
      "uid": "043-16",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "80d970653c76",
-     "R": "1c129d2bdf92",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "74ce55162c0c",
+     "R": "d2df6b03c661",
      "practice": false
     },
     {
      "uid": "043-17",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "a1c22da06443",
-     "R": "9d22c1efd6ac",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "175b81ee9404",
      "practice": false
     },
     {
      "uid": "043-18",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "4fb39632a8d9",
-     "R": "93a985f0eb8a",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "c45f8a562581",
+     "R": "36a697460492",
      "practice": false
     },
     {
      "uid": "043-19",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "36a697460492",
-     "R": "c45f8a562581",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "db99a4dc1c1f",
+     "R": "e9b7e59466fb",
      "practice": false
     }
    ]
@@ -6479,72 +6479,72 @@
     },
     {
      "uid": "044-10",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "2379d41dec46",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "e1d5de6f0c32",
+     "R": "35cd08d98dcb",
      "practice": false
     },
     {
      "uid": "044-11",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "43d2816d0bee",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "20b61709417a",
+     "R": "5fefd83ebace",
      "practice": false
     },
     {
      "uid": "044-12",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "6f0c0e7bbae3",
-     "R": "a1c22da06443",
+     "cell": "hs2_bara_imambara_230",
+     "L": "dc2b0f6d0a8a",
+     "R": "3490b310d757",
      "practice": false
     },
     {
      "uid": "044-13",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "5fefd83ebace",
-     "R": "20b61709417a",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "d62f9e222f19",
+     "R": "558d30e0cb7a",
      "practice": false
     },
     {
      "uid": "044-14",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "8200b3441ce7",
-     "R": "db99a4dc1c1f",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "725d2bd13e81",
      "practice": false
     },
     {
      "uid": "044-15",
-     "cell": "hs2_cathedral_of_cusco_10",
-     "L": "af7534e5f301",
-     "R": "92d450adfcb7",
+     "cell": "hs2_compania_de_jesus_cusco_85",
+     "L": "5d52bdbd7c40",
+     "R": "74efca2236a2",
      "practice": false
     },
     {
      "uid": "044-16",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "8f2a22e2b60a",
-     "R": "9f9574a7d139",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "9893559d98fa",
+     "R": "c45f8a562581",
      "practice": false
     },
     {
      "uid": "044-17",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "e46117ed98e3",
-     "R": "ee55c1629870",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "d06f443841ce",
+     "R": "8eafd7fd6105",
      "practice": false
     },
     {
      "uid": "044-18",
-     "cell": "orb_erechtheum_270",
-     "L": "c365c1e987eb",
-     "R": "64222c3c0280",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "0be1d7b82818",
      "practice": false
     },
     {
      "uid": "044-19",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "43d2816d0bee",
-     "R": "620ce462b064",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "35cd08d98dcb",
+     "R": "e1d5de6f0c32",
      "practice": false
     }
    ]
@@ -6624,72 +6624,72 @@
     },
     {
      "uid": "045-10",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "bf5fa9f5541a",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "175b81ee9404",
      "practice": false
     },
     {
      "uid": "045-11",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "d4380fdbc8eb",
+     "R": "3388cea5e334",
+     "practice": false
+    },
+    {
+     "uid": "045-12",
      "cell": "hs2_ancient_roman_theatre_in_mer_87",
      "L": "725d2bd13e81",
      "R": "d2df6b03c661",
      "practice": false
     },
     {
-     "uid": "045-12",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "117e6f806ae1",
-     "practice": false
-    },
-    {
      "uid": "045-13",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "56d4e757bf11",
-     "R": "241a59905f92",
-     "practice": false
-    },
-    {
-     "uid": "045-14",
-     "cell": "orb_whitby_abbey_156",
-     "L": "d15ef13e4510",
-     "R": "caa48d6ad78a",
-     "practice": false
-    },
-    {
-     "uid": "045-15",
-     "cell": "hs2_compania_de_jesus_cusco_85",
-     "L": "5d52bdbd7c40",
-     "R": "74efca2236a2",
-     "practice": false
-    },
-    {
-     "uid": "045-16",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "eddfb9ee21e5",
-     "R": "ee55c1629870",
-     "practice": false
-    },
-    {
-     "uid": "045-17",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "dc58d1c6140c",
-     "R": "ba038f2428db",
-     "practice": false
-    },
-    {
-     "uid": "045-18",
      "cell": "orb_cathedral_of_talin_160",
      "L": "9893559d98fa",
      "R": "c45f8a562581",
      "practice": false
     },
     {
-     "uid": "045-19",
+     "uid": "045-14",
      "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "bf5fa9f5541a",
-     "R": "d06f443841ce",
+     "L": "93a985f0eb8a",
+     "R": "4fb39632a8d9",
+     "practice": false
+    },
+    {
+     "uid": "045-15",
+     "cell": "hs2_cathedral_of_christ_the_savi_92",
+     "L": "334b164f5abb",
+     "R": "48cf7600cdf5",
+     "practice": false
+    },
+    {
+     "uid": "045-16",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "558d30e0cb7a",
+     "R": "d62f9e222f19",
+     "practice": false
+    },
+    {
+     "uid": "045-17",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "eddfb9ee21e5",
+     "R": "ee55c1629870",
+     "practice": false
+    },
+    {
+     "uid": "045-18",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "2988685ae149",
+     "practice": false
+    },
+    {
+     "uid": "045-19",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "175b81ee9404",
+     "R": "61a40850b4db",
      "practice": false
     }
    ]
@@ -6769,72 +6769,72 @@
     },
     {
      "uid": "046-10",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "c98309b01545",
-     "R": "782c35807c44",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "4961b95ea8bf",
+     "R": "d06f443841ce",
      "practice": false
     },
     {
      "uid": "046-11",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "61a40850b4db",
-     "R": "83eefcf4145b",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "9f9574a7d139",
+     "R": "8f2a22e2b60a",
      "practice": false
     },
     {
      "uid": "046-12",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "a1c22da06443",
-     "R": "531b1ba0ecd8",
-     "practice": false
-    },
-    {
-     "uid": "046-13",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "d62f9e222f19",
-     "R": "558d30e0cb7a",
-     "practice": false
-    },
-    {
-     "uid": "046-14",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "2988685ae149",
-     "R": "1c129d2bdf92",
-     "practice": false
-    },
-    {
-     "uid": "046-15",
-     "cell": "hs2_palais_de_rumine_lausanne_224",
-     "L": "fe50e3a519ec",
-     "R": "104dbf7c20ff",
-     "practice": false
-    },
-    {
-     "uid": "046-16",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "74ce55162c0c",
-     "practice": false
-    },
-    {
-     "uid": "046-17",
-     "cell": "hs2_bara_imambara_230",
-     "L": "dc2b0f6d0a8a",
-     "R": "3490b310d757",
-     "practice": false
-    },
-    {
-     "uid": "046-18",
      "cell": "hs2_fulda_cathedral_166",
      "L": "c4df9ab5c27a",
      "R": "d4380fdbc8eb",
      "practice": false
     },
     {
+     "uid": "046-13",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "db99a4dc1c1f",
+     "R": "117e6f806ae1",
+     "practice": false
+    },
+    {
+     "uid": "046-14",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "342ab3430db9",
+     "practice": false
+    },
+    {
+     "uid": "046-15",
+     "cell": "hs2_santa_maria_and_san_donato_m_211",
+     "L": "c0e6bedc5888",
+     "R": "d9f9b4e01c6a",
+     "practice": false
+    },
+    {
+     "uid": "046-16",
+     "cell": "orb_erechtheum_270",
+     "L": "c365c1e987eb",
+     "R": "64222c3c0280",
+     "practice": false
+    },
+    {
+     "uid": "046-17",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "b7a9be6e1a0f",
+     "R": "620ce462b064",
+     "practice": false
+    },
+    {
+     "uid": "046-18",
+     "cell": "hs2_capela_das_almas_porto_87",
+     "L": "945579caf6c8",
+     "R": "64c783afb842",
+     "practice": false
+    },
+    {
      "uid": "046-19",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "782c35807c44",
-     "R": "c98309b01545",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "d06f443841ce",
+     "R": "4961b95ea8bf",
      "practice": false
     }
    ]
@@ -6914,72 +6914,72 @@
     },
     {
      "uid": "047-10",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3e5048b16bea",
-     "R": "3490b310d757",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
      "practice": false
     },
     {
      "uid": "047-11",
      "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "93a985f0eb8a",
-     "R": "4fb39632a8d9",
+     "L": "bf5fa9f5541a",
+     "R": "d06f443841ce",
      "practice": false
     },
     {
      "uid": "047-12",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "301e9d765093",
-     "R": "61a40850b4db",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "db99a4dc1c1f",
+     "R": "8200b3441ce7",
      "practice": false
     },
     {
      "uid": "047-13",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "d4380fdbc8eb",
-     "R": "cd1440969bd4",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "74ce55162c0c",
+     "R": "d2df6b03c661",
      "practice": false
     },
     {
      "uid": "047-14",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "bff6b351d71b",
-     "R": "35cd08d98dcb",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "c98309b01545",
+     "R": "782c35807c44",
      "practice": false
     },
     {
      "uid": "047-15",
-     "cell": "hs2_george_enescu_museum_64",
-     "L": "b4185556190f",
-     "R": "f4663f704413",
+     "cell": "hs2_cathedral_of_cusco_10",
+     "L": "af7534e5f301",
+     "R": "92d450adfcb7",
      "practice": false
     },
     {
      "uid": "047-16",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "b7a9be6e1a0f",
+     "cell": "orb_erechtheum_270",
+     "L": "c365c1e987eb",
+     "R": "17613e2141d1",
      "practice": false
     },
     {
      "uid": "047-17",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "b1540d6ab9ee",
+     "cell": "hs2_bara_imambara_230",
+     "L": "4a4a36e39162",
+     "R": "3490b310d757",
      "practice": false
     },
     {
      "uid": "047-18",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "8f2a22e2b60a",
-     "R": "9f9574a7d139",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "83eefcf4145b",
      "practice": false
     },
     {
      "uid": "047-19",
      "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "4fb39632a8d9",
-     "R": "93a985f0eb8a",
+     "L": "d06f443841ce",
+     "R": "bf5fa9f5541a",
      "practice": false
     }
    ]
@@ -7059,72 +7059,72 @@
     },
     {
      "uid": "048-10",
-     "cell": "orb_erechtheum_270",
-     "L": "17613e2141d1",
-     "R": "c365c1e987eb",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "301e9d765093",
+     "R": "61a40850b4db",
      "practice": false
     },
     {
      "uid": "048-11",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "00508ab3e383",
-     "R": "d691ecf79924",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "43d2816d0bee",
      "practice": false
     },
     {
      "uid": "048-12",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "6f0773a399c7",
-     "R": "620ce462b064",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "002af1a54270",
+     "R": "d2df6b03c661",
      "practice": false
     },
     {
      "uid": "048-13",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "241a59905f92",
-     "R": "56d4e757bf11",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "d62f9e222f19",
+     "R": "558d30e0cb7a",
      "practice": false
     },
     {
      "uid": "048-14",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "ee55c1629870",
-     "R": "225d49e4b3d9",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "d4380fdbc8eb",
+     "R": "146033917c21",
      "practice": false
     },
     {
      "uid": "048-15",
-     "cell": "hs2_cathedral_of_christ_the_savi_92",
-     "L": "48cf7600cdf5",
-     "R": "334b164f5abb",
+     "cell": "hs2_palais_de_rumine_lausanne_224",
+     "L": "fe50e3a519ec",
+     "R": "104dbf7c20ff",
      "practice": false
     },
     {
      "uid": "048-16",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "ee2832f2b877",
-     "R": "c45f8a562581",
-     "practice": false
-    },
-    {
-     "uid": "048-17",
      "cell": "hs2_christ_church_cathedral_mont_88",
      "L": "d06f443841ce",
      "R": "9d1844811cf4",
      "practice": false
     },
     {
+     "uid": "048-17",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "8f2a22e2b60a",
+     "R": "9f9574a7d139",
+     "practice": false
+    },
+    {
      "uid": "048-18",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "725d2bd13e81",
+     "cell": "orb_erechtheum_270",
+     "L": "093e08881f19",
+     "R": "c365c1e987eb",
      "practice": false
     },
     {
      "uid": "048-19",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "d691ecf79924",
-     "R": "00508ab3e383",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "61a40850b4db",
+     "R": "301e9d765093",
      "practice": false
     }
    ]
@@ -7204,72 +7204,72 @@
     },
     {
      "uid": "049-10",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "225d49e4b3d9",
-     "R": "ee55c1629870",
-     "practice": false
-    },
-    {
-     "uid": "049-11",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "80d970653c76",
-     "R": "1c129d2bdf92",
-     "practice": false
-    },
-    {
-     "uid": "049-12",
      "cell": "orb_whitby_abbey_156",
      "L": "0be1d7b82818",
      "R": "d15ef13e4510",
      "practice": false
     },
     {
+     "uid": "049-11",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "a1c22da06443",
+     "R": "531b1ba0ecd8",
+     "practice": false
+    },
+    {
+     "uid": "049-12",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
+     "practice": false
+    },
+    {
      "uid": "049-13",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "4961b95ea8bf",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "bff6b351d71b",
+     "R": "35cd08d98dcb",
      "practice": false
     },
     {
      "uid": "049-14",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "61a40850b4db",
-     "R": "342ab3430db9",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "dc58d1c6140c",
+     "R": "ba038f2428db",
      "practice": false
     },
     {
      "uid": "049-15",
-     "cell": "hs2_george_enescu_museum_64",
-     "L": "b4185556190f",
-     "R": "f4663f704413",
+     "cell": "hs2_compania_de_jesus_cusco_85",
+     "L": "5d52bdbd7c40",
+     "R": "74efca2236a2",
      "practice": false
     },
     {
      "uid": "049-16",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "64c783afb842",
-     "R": "945579caf6c8",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "942fc6e950ac",
      "practice": false
     },
     {
      "uid": "049-17",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "558d30e0cb7a",
-     "R": "d62f9e222f19",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "db99a4dc1c1f",
+     "R": "117e6f806ae1",
      "practice": false
     },
     {
      "uid": "049-18",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "74ce55162c0c",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "b7a9be6e1a0f",
+     "R": "620ce462b064",
      "practice": false
     },
     {
      "uid": "049-19",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "80d970653c76",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "0be1d7b82818",
      "practice": false
     }
    ]
@@ -7349,72 +7349,72 @@
     },
     {
      "uid": "050-10",
-     "cell": "orb_erechtheum_270",
-     "L": "64222c3c0280",
-     "R": "c365c1e987eb",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "35cd08d98dcb",
+     "R": "1c548e635917",
      "practice": false
     },
     {
      "uid": "050-11",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "43d2816d0bee",
-     "R": "620ce462b064",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "6456b629ebb3",
      "practice": false
     },
     {
      "uid": "050-12",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "c98309b01545",
-     "R": "782c35807c44",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "b1540d6ab9ee",
+     "R": "c45f8a562581",
      "practice": false
     },
     {
      "uid": "050-13",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "942fc6e950ac",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "725d2bd13e81",
+     "R": "d2df6b03c661",
      "practice": false
     },
     {
      "uid": "050-14",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "6f0c0e7bbae3",
-     "R": "a1c22da06443",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "146033917c21",
+     "R": "d4380fdbc8eb",
      "practice": false
     },
     {
      "uid": "050-15",
      "cell": "hs2_cathedral_of_cusco_10",
-     "L": "af7534e5f301",
-     "R": "92d450adfcb7",
+     "L": "92d450adfcb7",
+     "R": "af7534e5f301",
      "practice": false
     },
     {
      "uid": "050-16",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "e1d5de6f0c32",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "782c35807c44",
+     "R": "c98309b01545",
      "practice": false
     },
     {
      "uid": "050-17",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "56d4e757bf11",
-     "R": "241a59905f92",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "ee55c1629870",
+     "R": "e46117ed98e3",
      "practice": false
     },
     {
      "uid": "050-18",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "8eafd7fd6105",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "558d30e0cb7a",
+     "R": "d62f9e222f19",
      "practice": false
     },
     {
      "uid": "050-19",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "43d2816d0bee",
+     "cell": "orb_whitby_abbey_156",
+     "L": "6456b629ebb3",
+     "R": "d15ef13e4510",
      "practice": false
     }
    ]
@@ -7494,72 +7494,72 @@
     },
     {
      "uid": "051-10",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "146033917c21",
-     "R": "d4380fdbc8eb",
+     "cell": "hs2_bara_imambara_230",
+     "L": "3e5048b16bea",
+     "R": "3490b310d757",
      "practice": false
     },
     {
      "uid": "051-11",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "dc58d1c6140c",
+     "R": "ba038f2428db",
+     "practice": false
+    },
+    {
+     "uid": "051-12",
      "cell": "orb_white_tower_thessaloniki_266",
      "L": "a1c22da06443",
      "R": "acbde5341321",
      "practice": false
     },
     {
-     "uid": "051-12",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "4fb39632a8d9",
-     "R": "93a985f0eb8a",
-     "practice": false
-    },
-    {
      "uid": "051-13",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "00508ab3e383",
-     "R": "d691ecf79924",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "9f9574a7d139",
+     "R": "8f2a22e2b60a",
      "practice": false
     },
     {
      "uid": "051-14",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "e9b7e59466fb",
+     "cell": "orb_erechtheum_270",
+     "L": "c365c1e987eb",
+     "R": "17613e2141d1",
      "practice": false
     },
     {
      "uid": "051-15",
-     "cell": "hs2_arenes_de_nimes_226",
-     "L": "beae39ef0f5d",
-     "R": "6b9bd48ed7a9",
+     "cell": "hs2_cathedral_of_christ_the_savi_92",
+     "L": "334b164f5abb",
+     "R": "48cf7600cdf5",
      "practice": false
     },
     {
      "uid": "051-16",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "a66d1e77cb0c",
-     "R": "d2df6b03c661",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "225d49e4b3d9",
+     "R": "ee55c1629870",
      "practice": false
     },
     {
      "uid": "051-17",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "e1d5de6f0c32",
-     "R": "35cd08d98dcb",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "9d4d21e9899f",
+     "R": "620ce462b064",
      "practice": false
     },
     {
      "uid": "051-18",
-     "cell": "orb_whitby_abbey_156",
-     "L": "d15ef13e4510",
-     "R": "6456b629ebb3",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "80d970653c76",
      "practice": false
     },
     {
      "uid": "051-19",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "d4380fdbc8eb",
-     "R": "146033917c21",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "ba038f2428db",
+     "R": "dc58d1c6140c",
      "practice": false
     }
    ]
@@ -7639,72 +7639,72 @@
     },
     {
      "uid": "052-10",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "61a40850b4db",
-     "R": "175b81ee9404",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "c45f8a562581",
+     "R": "ee2832f2b877",
      "practice": false
     },
     {
      "uid": "052-11",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "8f2a22e2b60a",
-     "R": "9f9574a7d139",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
      "practice": false
     },
     {
      "uid": "052-12",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "36a697460492",
-     "practice": false
-    },
-    {
-     "uid": "052-13",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "b7a9be6e1a0f",
-     "practice": false
-    },
-    {
-     "uid": "052-14",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "c4df9ab5c27a",
-     "R": "d4380fdbc8eb",
-     "practice": false
-    },
-    {
-     "uid": "052-15",
-     "cell": "hs2_compania_de_jesus_cusco_85",
-     "L": "5d52bdbd7c40",
-     "R": "74efca2236a2",
-     "practice": false
-    },
-    {
-     "uid": "052-16",
      "cell": "hs2_wrocław_new_town_hall_58",
      "L": "558d30e0cb7a",
      "R": "d62f9e222f19",
      "practice": false
     },
     {
-     "uid": "052-17",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "725d2bd13e81",
+     "uid": "052-13",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "eddfb9ee21e5",
+     "R": "ee55c1629870",
      "practice": false
     },
     {
-     "uid": "052-18",
+     "uid": "052-14",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "43d2816d0bee",
+     "practice": false
+    },
+    {
+     "uid": "052-15",
+     "cell": "hs2_arenes_de_nimes_226",
+     "L": "beae39ef0f5d",
+     "R": "6b9bd48ed7a9",
+     "practice": false
+    },
+    {
+     "uid": "052-16",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "86c89aeb0c06",
+     "practice": false
+    },
+    {
+     "uid": "052-17",
      "cell": "hs2_bara_imambara_230",
      "L": "2379d41dec46",
      "R": "3490b310d757",
      "practice": false
     },
     {
+     "uid": "052-18",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "74ce55162c0c",
+     "practice": false
+    },
+    {
      "uid": "052-19",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "175b81ee9404",
-     "R": "61a40850b4db",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
      "practice": false
     }
    ]
@@ -7784,72 +7784,72 @@
     },
     {
      "uid": "053-10",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "64c783afb842",
-     "R": "945579caf6c8",
-     "practice": false
-    },
-    {
-     "uid": "053-11",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "ee55c1629870",
-     "R": "eddfb9ee21e5",
-     "practice": false
-    },
-    {
-     "uid": "053-12",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "acbde5341321",
-     "R": "a1c22da06443",
-     "practice": false
-    },
-    {
-     "uid": "053-13",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "5fefd83ebace",
-     "R": "20b61709417a",
-     "practice": false
-    },
-    {
-     "uid": "053-14",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "66fb5e6822b0",
-     "practice": false
-    },
-    {
-     "uid": "053-15",
-     "cell": "hs2_ponte_coperto_pavia_137",
-     "L": "7c1cf47ecf7f",
-     "R": "0f1746db3b67",
-     "practice": false
-    },
-    {
-     "uid": "053-16",
      "cell": "hs2_banyabası_mosque_57",
      "L": "a4683502ba04",
      "R": "db99a4dc1c1f",
      "practice": false
     },
     {
-     "uid": "053-17",
+     "uid": "053-11",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "5fefd83ebace",
+     "R": "20b61709417a",
+     "practice": false
+    },
+    {
+     "uid": "053-12",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "c45f8a562581",
+     "R": "b1540d6ab9ee",
+     "practice": false
+    },
+    {
+     "uid": "053-13",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "93a985f0eb8a",
+     "R": "4fb39632a8d9",
+     "practice": false
+    },
+    {
+     "uid": "053-14",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "6f0c0e7bbae3",
+     "R": "a1c22da06443",
+     "practice": false
+    },
+    {
+     "uid": "053-15",
+     "cell": "hs2_santa_maria_and_san_donato_m_211",
+     "L": "c0e6bedc5888",
+     "R": "d9f9b4e01c6a",
+     "practice": false
+    },
+    {
+     "uid": "053-16",
      "cell": "hs2_bara_imambara_230",
      "L": "dc2b0f6d0a8a",
      "R": "3490b310d757",
      "practice": false
     },
     {
+     "uid": "053-17",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "80d970653c76",
+     "R": "1c129d2bdf92",
+     "practice": false
+    },
+    {
      "uid": "053-18",
-     "cell": "orb_whitby_abbey_156",
-     "L": "6456b629ebb3",
-     "R": "d15ef13e4510",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "35cd08d98dcb",
+     "R": "66fb5e6822b0",
      "practice": false
     },
     {
      "uid": "053-19",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "945579caf6c8",
-     "R": "64c783afb842",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "db99a4dc1c1f",
+     "R": "a4683502ba04",
      "practice": false
     }
    ]
@@ -7929,58 +7929,58 @@
     },
     {
      "uid": "054-10",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "43d2816d0bee",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "35cd08d98dcb",
+     "R": "1c548e635917",
      "practice": false
     },
     {
      "uid": "054-11",
-     "cell": "hs2_bara_imambara_230",
-     "L": "4a4a36e39162",
-     "R": "3490b310d757",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "e9b7e59466fb",
+     "R": "db99a4dc1c1f",
      "practice": false
     },
     {
      "uid": "054-12",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "4961b95ea8bf",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "8f2a22e2b60a",
+     "R": "9f9574a7d139",
      "practice": false
     },
     {
      "uid": "054-13",
      "cell": "hs2_ponte_pietra_verona_70",
-     "L": "d691ecf79924",
-     "R": "00508ab3e383",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
      "practice": false
     },
     {
      "uid": "054-14",
      "cell": "hs2_ancient_roman_theatre_in_mer_87",
      "L": "d2df6b03c661",
-     "R": "74ce55162c0c",
+     "R": "725d2bd13e81",
      "practice": false
     },
     {
      "uid": "054-15",
-     "cell": "hs2_santa_maria_and_san_donato_m_211",
-     "L": "c0e6bedc5888",
-     "R": "d9f9b4e01c6a",
+     "cell": "hs2_george_enescu_museum_64",
+     "L": "b4185556190f",
+     "R": "f4663f704413",
      "practice": false
     },
     {
      "uid": "054-16",
-     "cell": "orb_erechtheum_270",
-     "L": "eb17dd7715a6",
-     "R": "c365c1e987eb",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "b7a9be6e1a0f",
      "practice": false
     },
     {
      "uid": "054-17",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "56d4e757bf11",
-     "R": "241a59905f92",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "36a697460492",
+     "R": "c45f8a562581",
      "practice": false
     },
     {
@@ -7992,9 +7992,9 @@
     },
     {
      "uid": "054-19",
-     "cell": "hs2_bara_imambara_230",
-     "L": "3490b310d757",
-     "R": "4a4a36e39162",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "1c548e635917",
+     "R": "35cd08d98dcb",
      "practice": false
     }
    ]
@@ -8074,72 +8074,72 @@
     },
     {
      "uid": "055-10",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "4fb39632a8d9",
-     "R": "93a985f0eb8a",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "8f2a22e2b60a",
+     "R": "9f9574a7d139",
      "practice": false
     },
     {
      "uid": "055-11",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "d62f9e222f19",
-     "R": "558d30e0cb7a",
-     "practice": false
-    },
-    {
-     "uid": "055-12",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "ee55c1629870",
-     "R": "eddfb9ee21e5",
-     "practice": false
-    },
-    {
-     "uid": "055-13",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "d4380fdbc8eb",
-     "R": "3388cea5e334",
-     "practice": false
-    },
-    {
-     "uid": "055-14",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "b7a9be6e1a0f",
-     "R": "620ce462b064",
-     "practice": false
-    },
-    {
-     "uid": "055-15",
-     "cell": "hs2_palais_de_rumine_lausanne_224",
-     "L": "104dbf7c20ff",
-     "R": "fe50e3a519ec",
-     "practice": false
-    },
-    {
-     "uid": "055-16",
-     "cell": "orb_whitby_abbey_156",
-     "L": "0be1d7b82818",
-     "R": "d15ef13e4510",
-     "practice": false
-    },
-    {
-     "uid": "055-17",
      "cell": "orb_white_tower_thessaloniki_266",
      "L": "9d22c1efd6ac",
      "R": "a1c22da06443",
      "practice": false
     },
     {
-     "uid": "055-18",
+     "uid": "055-12",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "b7a9be6e1a0f",
+     "practice": false
+    },
+    {
+     "uid": "055-13",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "ee55c1629870",
+     "R": "e46117ed98e3",
+     "practice": false
+    },
+    {
+     "uid": "055-14",
      "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "1c129d2bdf92",
-     "R": "2988685ae149",
+     "L": "2988685ae149",
+     "R": "1c129d2bdf92",
+     "practice": false
+    },
+    {
+     "uid": "055-15",
+     "cell": "hs2_ponte_coperto_pavia_137",
+     "L": "7c1cf47ecf7f",
+     "R": "0f1746db3b67",
+     "practice": false
+    },
+    {
+     "uid": "055-16",
+     "cell": "orb_temple_of_zeus_in_athens_450",
+     "L": "83eefcf4145b",
+     "R": "61a40850b4db",
+     "practice": false
+    },
+    {
+     "uid": "055-17",
+     "cell": "hs2_capela_das_almas_porto_87",
+     "L": "64c783afb842",
+     "R": "945579caf6c8",
+     "practice": false
+    },
+    {
+     "uid": "055-18",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "d06f443841ce",
+     "R": "9d1844811cf4",
      "practice": false
     },
     {
      "uid": "055-19",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "93a985f0eb8a",
-     "R": "4fb39632a8d9",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "a1c22da06443",
+     "R": "9d22c1efd6ac",
      "practice": false
     }
    ]
@@ -8219,72 +8219,72 @@
     },
     {
      "uid": "056-10",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "725d2bd13e81",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "c98309b01545",
+     "R": "782c35807c44",
      "practice": false
     },
     {
      "uid": "056-11",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "9f9574a7d139",
-     "R": "8f2a22e2b60a",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
      "practice": false
     },
     {
      "uid": "056-12",
-     "cell": "orb_temple_of_zeus_in_athens_450",
-     "L": "83eefcf4145b",
-     "R": "61a40850b4db",
-     "practice": false
-    },
-    {
-     "uid": "056-13",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "225d49e4b3d9",
-     "R": "ee55c1629870",
-     "practice": false
-    },
-    {
-     "uid": "056-14",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "9893559d98fa",
-     "practice": false
-    },
-    {
-     "uid": "056-15",
-     "cell": "hs2_palais_de_rumine_lausanne_224",
-     "L": "104dbf7c20ff",
-     "R": "fe50e3a519ec",
-     "practice": false
-    },
-    {
-     "uid": "056-16",
      "cell": "hs2_bara_imambara_230",
      "L": "3e5048b16bea",
      "R": "3490b310d757",
      "practice": false
     },
     {
+     "uid": "056-13",
+     "cell": "hs2_ancient_roman_theatre_aosta_50",
+     "L": "620ce462b064",
+     "R": "43d2816d0bee",
+     "practice": false
+    },
+    {
+     "uid": "056-14",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "d4380fdbc8eb",
+     "R": "cd1440969bd4",
+     "practice": false
+    },
+    {
+     "uid": "056-15",
+     "cell": "hs2_ponte_coperto_pavia_137",
+     "L": "0f1746db3b67",
+     "R": "7c1cf47ecf7f",
+     "practice": false
+    },
+    {
+     "uid": "056-16",
+     "cell": "orb_erechtheum_270",
+     "L": "64222c3c0280",
+     "R": "c365c1e987eb",
+     "practice": false
+    },
+    {
      "uid": "056-17",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "8200b3441ce7",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "d06f443841ce",
+     "R": "8eafd7fd6105",
      "practice": false
     },
     {
      "uid": "056-18",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "dc58d1c6140c",
-     "R": "ba038f2428db",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "6f0c0e7bbae3",
+     "R": "a1c22da06443",
      "practice": false
     },
     {
      "uid": "056-19",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "725d2bd13e81",
-     "R": "d2df6b03c661",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
      "practice": false
     }
    ]
@@ -8364,72 +8364,72 @@
     },
     {
      "uid": "057-10",
-     "cell": "orb_white_tower_thessaloniki_266",
-     "L": "6f0c0e7bbae3",
-     "R": "a1c22da06443",
-     "practice": false
-    },
-    {
-     "uid": "057-11",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "db99a4dc1c1f",
-     "R": "117e6f806ae1",
-     "practice": false
-    },
-    {
-     "uid": "057-12",
      "cell": "hs2_ancient_roman_theatre_in_mer_87",
      "L": "a66d1e77cb0c",
      "R": "d2df6b03c661",
      "practice": false
     },
     {
+     "uid": "057-11",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "c4df9ab5c27a",
+     "R": "d4380fdbc8eb",
+     "practice": false
+    },
+    {
+     "uid": "057-12",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "117e6f806ae1",
+     "R": "db99a4dc1c1f",
+     "practice": false
+    },
+    {
      "uid": "057-13",
-     "cell": "orb_erechtheum_270",
-     "L": "64222c3c0280",
-     "R": "c365c1e987eb",
+     "cell": "orb_white_tower_thessaloniki_266",
+     "L": "a1c22da06443",
+     "R": "acbde5341321",
      "practice": false
     },
     {
      "uid": "057-14",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "d62f9e222f19",
-     "R": "558d30e0cb7a",
+     "cell": "hs2_sat_gambuj_mosque_372",
+     "L": "9f9574a7d139",
+     "R": "8f2a22e2b60a",
      "practice": false
     },
     {
      "uid": "057-15",
-     "cell": "hs2_santa_maria_and_san_donato_m_211",
-     "L": "d9f9b4e01c6a",
-     "R": "c0e6bedc5888",
+     "cell": "hs2_george_enescu_museum_64",
+     "L": "f4663f704413",
+     "R": "b4185556190f",
      "practice": false
     },
     {
      "uid": "057-16",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "558d30e0cb7a",
+     "R": "d62f9e222f19",
+     "practice": false
+    },
+    {
+     "uid": "057-17",
      "cell": "hs2_ancient_roman_theatre_aosta_50",
      "L": "620ce462b064",
      "R": "6f0773a399c7",
      "practice": false
     },
     {
-     "uid": "057-17",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "9d1844811cf4",
-     "practice": false
-    },
-    {
      "uid": "057-18",
-     "cell": "hs2_ponte_pietra_verona_70",
-     "L": "d691ecf79924",
-     "R": "00508ab3e383",
+     "cell": "orb_cathedral_of_talin_160",
+     "L": "c45f8a562581",
+     "R": "9893559d98fa",
      "practice": false
     },
     {
      "uid": "057-19",
-     "cell": "hs2_banyabası_mosque_57",
-     "L": "117e6f806ae1",
-     "R": "db99a4dc1c1f",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "a66d1e77cb0c",
      "practice": false
     }
    ]
@@ -8509,72 +8509,72 @@
     },
     {
      "uid": "058-10",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "ee2832f2b877",
-     "R": "c45f8a562581",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "725d2bd13e81",
      "practice": false
     },
     {
      "uid": "058-11",
-     "cell": "hs2_ancient_roman_theatre_aosta_50",
-     "L": "620ce462b064",
-     "R": "43d2816d0bee",
-     "practice": false
-    },
-    {
-     "uid": "058-12",
-     "cell": "hs2_castello_di_miramare_trieste_340",
-     "L": "e46117ed98e3",
-     "R": "ee55c1629870",
-     "practice": false
-    },
-    {
-     "uid": "058-13",
-     "cell": "orb_erechtheum_270",
-     "L": "c365c1e987eb",
-     "R": "17613e2141d1",
-     "practice": false
-    },
-    {
-     "uid": "058-14",
-     "cell": "hs2_fulda_cathedral_166",
-     "L": "146033917c21",
-     "R": "d4380fdbc8eb",
-     "practice": false
-    },
-    {
-     "uid": "058-15",
-     "cell": "hs2_compania_de_jesus_cusco_85",
-     "L": "5d52bdbd7c40",
-     "R": "74efca2236a2",
-     "practice": false
-    },
-    {
-     "uid": "058-16",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "782c35807c44",
-     "R": "c98309b01545",
-     "practice": false
-    },
-    {
-     "uid": "058-17",
-     "cell": "hs2_capela_das_almas_porto_87",
-     "L": "56d4e757bf11",
-     "R": "241a59905f92",
-     "practice": false
-    },
-    {
-     "uid": "058-18",
      "cell": "hs2_banyabası_mosque_57",
      "L": "e9b7e59466fb",
      "R": "db99a4dc1c1f",
      "practice": false
     },
     {
+     "uid": "058-12",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "6456b629ebb3",
+     "practice": false
+    },
+    {
+     "uid": "058-13",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "e1d5de6f0c32",
+     "R": "35cd08d98dcb",
+     "practice": false
+    },
+    {
+     "uid": "058-14",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "225d49e4b3d9",
+     "R": "ee55c1629870",
+     "practice": false
+    },
+    {
+     "uid": "058-15",
+     "cell": "hs2_compania_de_jesus_cusco_85",
+     "L": "74efca2236a2",
+     "R": "5d52bdbd7c40",
+     "practice": false
+    },
+    {
+     "uid": "058-16",
+     "cell": "hs2_fulda_cathedral_166",
+     "L": "5fefd83ebace",
+     "R": "20b61709417a",
+     "practice": false
+    },
+    {
+     "uid": "058-17",
+     "cell": "orb_erechtheum_270",
+     "L": "093e08881f19",
+     "R": "c365c1e987eb",
+     "practice": false
+    },
+    {
+     "uid": "058-18",
+     "cell": "hs2_wrocław_new_town_hall_58",
+     "L": "d62f9e222f19",
+     "R": "558d30e0cb7a",
+     "practice": false
+    },
+    {
      "uid": "058-19",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "ee2832f2b877",
+     "cell": "hs2_banyabası_mosque_57",
+     "L": "db99a4dc1c1f",
+     "R": "e9b7e59466fb",
      "practice": false
     }
    ]
@@ -8654,37 +8654,37 @@
     },
     {
      "uid": "059-10",
-     "cell": "hs2_christ_church_cathedral_mont_88",
-     "L": "d06f443841ce",
-     "R": "9d1844811cf4",
+     "cell": "hs2_ancient_roman_theatre_in_mer_87",
+     "L": "d2df6b03c661",
+     "R": "74ce55162c0c",
      "practice": false
     },
     {
      "uid": "059-11",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "b1540d6ab9ee",
-     "R": "c45f8a562581",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "d691ecf79924",
+     "R": "00508ab3e383",
      "practice": false
     },
     {
      "uid": "059-12",
-     "cell": "hs2_theatre_of_hierapolis_37",
-     "L": "2988685ae149",
-     "R": "1c129d2bdf92",
+     "cell": "hs2_christ_church_cathedral_mont_88",
+     "L": "4fb39632a8d9",
+     "R": "93a985f0eb8a",
      "practice": false
     },
     {
      "uid": "059-13",
-     "cell": "orb_whitby_abbey_156",
-     "L": "d15ef13e4510",
-     "R": "86c89aeb0c06",
+     "cell": "hs2_theatre_of_hierapolis_37",
+     "L": "1c129d2bdf92",
+     "R": "942fc6e950ac",
      "practice": false
     },
     {
      "uid": "059-14",
-     "cell": "hs2_sat_gambuj_mosque_372",
-     "L": "8f2a22e2b60a",
-     "R": "9f9574a7d139",
+     "cell": "orb_erechtheum_270",
+     "L": "c365c1e987eb",
+     "R": "eb17dd7715a6",
      "practice": false
     },
     {
@@ -8696,30 +8696,30 @@
     },
     {
      "uid": "059-16",
-     "cell": "hs2_ancient_roman_theatre_in_mer_87",
-     "L": "d2df6b03c661",
-     "R": "74ce55162c0c",
+     "cell": "hs2_castello_di_miramare_trieste_340",
+     "L": "eddfb9ee21e5",
+     "R": "ee55c1629870",
      "practice": false
     },
     {
      "uid": "059-17",
-     "cell": "hs2_the_iron_bridge_117",
-     "L": "35cd08d98dcb",
-     "R": "1c548e635917",
+     "cell": "orb_whitby_abbey_156",
+     "L": "d15ef13e4510",
+     "R": "0be1d7b82818",
      "practice": false
     },
     {
      "uid": "059-18",
-     "cell": "hs2_wrocław_new_town_hall_58",
-     "L": "dc58d1c6140c",
-     "R": "ba038f2428db",
+     "cell": "hs2_the_iron_bridge_117",
+     "L": "66fb5e6822b0",
+     "R": "35cd08d98dcb",
      "practice": false
     },
     {
      "uid": "059-19",
-     "cell": "orb_cathedral_of_talin_160",
-     "L": "c45f8a562581",
-     "R": "b1540d6ab9ee",
+     "cell": "hs2_ponte_pietra_verona_70",
+     "L": "00508ab3e383",
+     "R": "d691ecf79924",
      "practice": false
     }
    ]
@@ -8764,92 +8764,90 @@
   "db99a4dc1c1f": "media/clips/hs2_banyabasi_mosque_57/db99a4dc1c1f.mp4",
   "d2df6b03c661": "media/clips/hs2_ancient_roman_theatre_in_mer_87/d2df6b03c661.mp4",
   "725d2bd13e81": "media/clips/hs2_ancient_roman_theatre_in_mer_87/725d2bd13e81.mp4",
-  "945579caf6c8": "media/clips/hs2_capela_das_almas_porto_87/945579caf6c8.mp4",
-  "64c783afb842": "media/clips/hs2_capela_das_almas_porto_87/64c783afb842.mp4",
-  "531b1ba0ecd8": "media/clips/orb_white_tower_thessaloniki_266/531b1ba0ecd8.mp4",
-  "b7a9be6e1a0f": "media/clips/hs2_ancient_roman_theatre_aosta_50/b7a9be6e1a0f.mp4",
-  "620ce462b064": "media/clips/hs2_ancient_roman_theatre_aosta_50/620ce462b064.mp4",
-  "b1540d6ab9ee": "media/clips/orb_cathedral_of_talin_160/b1540d6ab9ee.mp4",
-  "c45f8a562581": "media/clips/orb_cathedral_of_talin_160/c45f8a562581.mp4",
-  "bff6b351d71b": "media/clips/hs2_the_iron_bridge_117/bff6b351d71b.mp4",
-  "35cd08d98dcb": "media/clips/hs2_the_iron_bridge_117/35cd08d98dcb.mp4",
-  "334b164f5abb": "media/clips/hs2_cathedral_of_christ_the_savi_92/334b164f5abb.mp4",
-  "48cf7600cdf5": "media/clips/hs2_cathedral_of_christ_the_savi_92/48cf7600cdf5.mp4",
-  "d62f9e222f19": "media/clips/hs2_wroclaw_new_town_hall_58/d62f9e222f19.mp4",
-  "558d30e0cb7a": "media/clips/hs2_wroclaw_new_town_hall_58/558d30e0cb7a.mp4",
-  "8200b3441ce7": "media/clips/hs2_banyabasi_mosque_57/8200b3441ce7.mp4",
-  "1c129d2bdf92": "media/clips/hs2_theatre_of_hierapolis_37/1c129d2bdf92.mp4",
-  "2988685ae149": "media/clips/hs2_theatre_of_hierapolis_37/2988685ae149.mp4",
-  "4961b95ea8bf": "media/clips/hs2_christ_church_cathedral_mont_88/4961b95ea8bf.mp4",
-  "d06f443841ce": "media/clips/hs2_christ_church_cathedral_mont_88/d06f443841ce.mp4",
   "00508ab3e383": "media/clips/hs2_ponte_pietra_verona_70/00508ab3e383.mp4",
   "d691ecf79924": "media/clips/hs2_ponte_pietra_verona_70/d691ecf79924.mp4",
-  "74ce55162c0c": "media/clips/hs2_ancient_roman_theatre_in_mer_87/74ce55162c0c.mp4",
-  "ba038f2428db": "media/clips/hs2_wroclaw_new_town_hall_58/ba038f2428db.mp4",
-  "dc58d1c6140c": "media/clips/hs2_wroclaw_new_town_hall_58/dc58d1c6140c.mp4",
-  "acbde5341321": "media/clips/orb_white_tower_thessaloniki_266/acbde5341321.mp4",
-  "beae39ef0f5d": "media/clips/hs2_arenes_de_nimes_226/beae39ef0f5d.mp4",
-  "6b9bd48ed7a9": "media/clips/hs2_arenes_de_nimes_226/6b9bd48ed7a9.mp4",
+  "9d1844811cf4": "media/clips/hs2_christ_church_cathedral_mont_88/9d1844811cf4.mp4",
+  "d06f443841ce": "media/clips/hs2_christ_church_cathedral_mont_88/d06f443841ce.mp4",
+  "c45f8a562581": "media/clips/orb_cathedral_of_talin_160/c45f8a562581.mp4",
+  "36a697460492": "media/clips/orb_cathedral_of_talin_160/36a697460492.mp4",
+  "945579caf6c8": "media/clips/hs2_capela_das_almas_porto_87/945579caf6c8.mp4",
+  "64c783afb842": "media/clips/hs2_capela_das_almas_porto_87/64c783afb842.mp4",
+  "620ce462b064": "media/clips/hs2_ancient_roman_theatre_aosta_50/620ce462b064.mp4",
+  "b7a9be6e1a0f": "media/clips/hs2_ancient_roman_theatre_aosta_50/b7a9be6e1a0f.mp4",
+  "334b164f5abb": "media/clips/hs2_cathedral_of_christ_the_savi_92/334b164f5abb.mp4",
+  "48cf7600cdf5": "media/clips/hs2_cathedral_of_christ_the_savi_92/48cf7600cdf5.mp4",
+  "dc2b0f6d0a8a": "media/clips/hs2_bara_imambara_230/dc2b0f6d0a8a.mp4",
+  "66fb5e6822b0": "media/clips/hs2_the_iron_bridge_117/66fb5e6822b0.mp4",
+  "35cd08d98dcb": "media/clips/hs2_the_iron_bridge_117/35cd08d98dcb.mp4",
+  "0be1d7b82818": "media/clips/orb_whitby_abbey_156/0be1d7b82818.mp4",
+  "d62f9e222f19": "media/clips/hs2_wroclaw_new_town_hall_58/d62f9e222f19.mp4",
+  "558d30e0cb7a": "media/clips/hs2_wroclaw_new_town_hall_58/558d30e0cb7a.mp4",
+  "61a40850b4db": "media/clips/orb_temple_of_zeus_in_athens_450/61a40850b4db.mp4",
+  "301e9d765093": "media/clips/orb_temple_of_zeus_in_athens_450/301e9d765093.mp4",
   "d4380fdbc8eb": "media/clips/hs2_fulda_cathedral_166/d4380fdbc8eb.mp4",
   "c4df9ab5c27a": "media/clips/hs2_fulda_cathedral_166/c4df9ab5c27a.mp4",
-  "e1d5de6f0c32": "media/clips/hs2_the_iron_bridge_117/e1d5de6f0c32.mp4",
-  "9893559d98fa": "media/clips/orb_cathedral_of_talin_160/9893559d98fa.mp4",
-  "36a697460492": "media/clips/orb_cathedral_of_talin_160/36a697460492.mp4",
-  "a66d1e77cb0c": "media/clips/hs2_ancient_roman_theatre_in_mer_87/a66d1e77cb0c.mp4",
-  "241a59905f92": "media/clips/hs2_capela_das_almas_porto_87/241a59905f92.mp4",
-  "56d4e757bf11": "media/clips/hs2_capela_das_almas_porto_87/56d4e757bf11.mp4",
-  "43d2816d0bee": "media/clips/hs2_ancient_roman_theatre_aosta_50/43d2816d0bee.mp4",
-  "6f0c0e7bbae3": "media/clips/orb_white_tower_thessaloniki_266/6f0c0e7bbae3.mp4",
-  "b4185556190f": "media/clips/hs2_george_enescu_museum_64/b4185556190f.mp4",
-  "f4663f704413": "media/clips/hs2_george_enescu_museum_64/f4663f704413.mp4",
-  "80d970653c76": "media/clips/hs2_theatre_of_hierapolis_37/80d970653c76.mp4",
-  "66fb5e6822b0": "media/clips/hs2_the_iron_bridge_117/66fb5e6822b0.mp4",
-  "93a985f0eb8a": "media/clips/hs2_christ_church_cathedral_mont_88/93a985f0eb8a.mp4",
-  "4fb39632a8d9": "media/clips/hs2_christ_church_cathedral_mont_88/4fb39632a8d9.mp4",
-  "3e5048b16bea": "media/clips/hs2_bara_imambara_230/3e5048b16bea.mp4",
-  "e9b7e59466fb": "media/clips/hs2_banyabasi_mosque_57/e9b7e59466fb.mp4",
-  "83eefcf4145b": "media/clips/orb_temple_of_zeus_in_athens_450/83eefcf4145b.mp4",
-  "61a40850b4db": "media/clips/orb_temple_of_zeus_in_athens_450/61a40850b4db.mp4",
-  "d9f9b4e01c6a": "media/clips/hs2_santa_maria_and_san_donato_m_211/d9f9b4e01c6a.mp4",
-  "c0e6bedc5888": "media/clips/hs2_santa_maria_and_san_donato_m_211/c0e6bedc5888.mp4",
-  "caa48d6ad78a": "media/clips/orb_whitby_abbey_156/caa48d6ad78a.mp4",
-  "225d49e4b3d9": "media/clips/hs2_castello_di_miramare_trieste_340/225d49e4b3d9.mp4",
-  "146033917c21": "media/clips/hs2_fulda_cathedral_166/146033917c21.mp4",
-  "c98309b01545": "media/clips/hs2_sat_gambuj_mosque_372/c98309b01545.mp4",
-  "782c35807c44": "media/clips/hs2_sat_gambuj_mosque_372/782c35807c44.mp4",
-  "301e9d765093": "media/clips/orb_temple_of_zeus_in_athens_450/301e9d765093.mp4",
-  "af7534e5f301": "media/clips/hs2_cathedral_of_cusco_10/af7534e5f301.mp4",
-  "92d450adfcb7": "media/clips/hs2_cathedral_of_cusco_10/92d450adfcb7.mp4",
-  "bf5fa9f5541a": "media/clips/hs2_christ_church_cathedral_mont_88/bf5fa9f5541a.mp4",
-  "942fc6e950ac": "media/clips/hs2_theatre_of_hierapolis_37/942fc6e950ac.mp4",
+  "1c548e635917": "media/clips/hs2_the_iron_bridge_117/1c548e635917.mp4",
   "c365c1e987eb": "media/clips/orb_erechtheum_270/c365c1e987eb.mp4",
   "64222c3c0280": "media/clips/orb_erechtheum_270/64222c3c0280.mp4",
-  "002af1a54270": "media/clips/hs2_ancient_roman_theatre_in_mer_87/002af1a54270.mp4",
-  "17613e2141d1": "media/clips/orb_erechtheum_270/17613e2141d1.mp4",
-  "8eafd7fd6105": "media/clips/hs2_christ_church_cathedral_mont_88/8eafd7fd6105.mp4",
-  "5d52bdbd7c40": "media/clips/hs2_compania_de_jesus_cusco_85/5d52bdbd7c40.mp4",
-  "74efca2236a2": "media/clips/hs2_compania_de_jesus_cusco_85/74efca2236a2.mp4",
-  "0be1d7b82818": "media/clips/orb_whitby_abbey_156/0be1d7b82818.mp4",
-  "90a29a5ce5cc": "media/clips/hs2_castello_di_miramare_trieste_340/90a29a5ce5cc.mp4",
-  "4a4a36e39162": "media/clips/hs2_bara_imambara_230/4a4a36e39162.mp4",
-  "ee2832f2b877": "media/clips/orb_cathedral_of_talin_160/ee2832f2b877.mp4",
-  "9d1844811cf4": "media/clips/hs2_christ_church_cathedral_mont_88/9d1844811cf4.mp4",
+  "c0e6bedc5888": "media/clips/hs2_santa_maria_and_san_donato_m_211/c0e6bedc5888.mp4",
+  "d9f9b4e01c6a": "media/clips/hs2_santa_maria_and_san_donato_m_211/d9f9b4e01c6a.mp4",
+  "782c35807c44": "media/clips/hs2_sat_gambuj_mosque_372/782c35807c44.mp4",
+  "c98309b01545": "media/clips/hs2_sat_gambuj_mosque_372/c98309b01545.mp4",
+  "74ce55162c0c": "media/clips/hs2_ancient_roman_theatre_in_mer_87/74ce55162c0c.mp4",
+  "bf5fa9f5541a": "media/clips/hs2_christ_church_cathedral_mont_88/bf5fa9f5541a.mp4",
+  "9893559d98fa": "media/clips/orb_cathedral_of_talin_160/9893559d98fa.mp4",
+  "117e6f806ae1": "media/clips/hs2_banyabasi_mosque_57/117e6f806ae1.mp4",
+  "43d2816d0bee": "media/clips/hs2_ancient_roman_theatre_aosta_50/43d2816d0bee.mp4",
+  "a66d1e77cb0c": "media/clips/hs2_ancient_roman_theatre_in_mer_87/a66d1e77cb0c.mp4",
   "7c1cf47ecf7f": "media/clips/hs2_ponte_coperto_pavia_137/7c1cf47ecf7f.mp4",
   "0f1746db3b67": "media/clips/hs2_ponte_coperto_pavia_137/0f1746db3b67.mp4",
-  "117e6f806ae1": "media/clips/hs2_banyabasi_mosque_57/117e6f806ae1.mp4",
-  "eb17dd7715a6": "media/clips/orb_erechtheum_270/eb17dd7715a6.mp4",
-  "d255ee770092": "media/clips/hs2_theatre_of_hierapolis_37/d255ee770092.mp4",
-  "dc2b0f6d0a8a": "media/clips/hs2_bara_imambara_230/dc2b0f6d0a8a.mp4",
-  "e46117ed98e3": "media/clips/hs2_castello_di_miramare_trieste_340/e46117ed98e3.mp4",
-  "175b81ee9404": "media/clips/orb_temple_of_zeus_in_athens_450/175b81ee9404.mp4",
-  "342ab3430db9": "media/clips/orb_temple_of_zeus_in_athens_450/342ab3430db9.mp4",
-  "1c548e635917": "media/clips/hs2_the_iron_bridge_117/1c548e635917.mp4",
+  "531b1ba0ecd8": "media/clips/orb_white_tower_thessaloniki_266/531b1ba0ecd8.mp4",
+  "80d970653c76": "media/clips/hs2_theatre_of_hierapolis_37/80d970653c76.mp4",
+  "1c129d2bdf92": "media/clips/hs2_theatre_of_hierapolis_37/1c129d2bdf92.mp4",
+  "ba038f2428db": "media/clips/hs2_wroclaw_new_town_hall_58/ba038f2428db.mp4",
+  "dc58d1c6140c": "media/clips/hs2_wroclaw_new_town_hall_58/dc58d1c6140c.mp4",
+  "225d49e4b3d9": "media/clips/hs2_castello_di_miramare_trieste_340/225d49e4b3d9.mp4",
+  "093e08881f19": "media/clips/orb_erechtheum_270/093e08881f19.mp4",
+  "beae39ef0f5d": "media/clips/hs2_arenes_de_nimes_226/beae39ef0f5d.mp4",
+  "6b9bd48ed7a9": "media/clips/hs2_arenes_de_nimes_226/6b9bd48ed7a9.mp4",
+  "bff6b351d71b": "media/clips/hs2_the_iron_bridge_117/bff6b351d71b.mp4",
   "3388cea5e334": "media/clips/hs2_fulda_cathedral_166/3388cea5e334.mp4",
+  "acbde5341321": "media/clips/orb_white_tower_thessaloniki_266/acbde5341321.mp4",
+  "8200b3441ce7": "media/clips/hs2_banyabasi_mosque_57/8200b3441ce7.mp4",
+  "146033917c21": "media/clips/hs2_fulda_cathedral_166/146033917c21.mp4",
+  "4fb39632a8d9": "media/clips/hs2_christ_church_cathedral_mont_88/4fb39632a8d9.mp4",
+  "93a985f0eb8a": "media/clips/hs2_christ_church_cathedral_mont_88/93a985f0eb8a.mp4",
+  "af7534e5f301": "media/clips/hs2_cathedral_of_cusco_10/af7534e5f301.mp4",
+  "92d450adfcb7": "media/clips/hs2_cathedral_of_cusco_10/92d450adfcb7.mp4",
+  "83eefcf4145b": "media/clips/orb_temple_of_zeus_in_athens_450/83eefcf4145b.mp4",
+  "6f0c0e7bbae3": "media/clips/orb_white_tower_thessaloniki_266/6f0c0e7bbae3.mp4",
+  "d255ee770092": "media/clips/hs2_theatre_of_hierapolis_37/d255ee770092.mp4",
+  "2988685ae149": "media/clips/hs2_theatre_of_hierapolis_37/2988685ae149.mp4",
+  "4961b95ea8bf": "media/clips/hs2_christ_church_cathedral_mont_88/4961b95ea8bf.mp4",
+  "002af1a54270": "media/clips/hs2_ancient_roman_theatre_in_mer_87/002af1a54270.mp4",
+  "b1540d6ab9ee": "media/clips/orb_cathedral_of_talin_160/b1540d6ab9ee.mp4",
+  "74efca2236a2": "media/clips/hs2_compania_de_jesus_cusco_85/74efca2236a2.mp4",
+  "5d52bdbd7c40": "media/clips/hs2_compania_de_jesus_cusco_85/5d52bdbd7c40.mp4",
+  "17613e2141d1": "media/clips/orb_erechtheum_270/17613e2141d1.mp4",
+  "4a4a36e39162": "media/clips/hs2_bara_imambara_230/4a4a36e39162.mp4",
+  "e9b7e59466fb": "media/clips/hs2_banyabasi_mosque_57/e9b7e59466fb.mp4",
+  "b4185556190f": "media/clips/hs2_george_enescu_museum_64/b4185556190f.mp4",
+  "f4663f704413": "media/clips/hs2_george_enescu_museum_64/f4663f704413.mp4",
+  "175b81ee9404": "media/clips/orb_temple_of_zeus_in_athens_450/175b81ee9404.mp4",
+  "8eafd7fd6105": "media/clips/hs2_christ_church_cathedral_mont_88/8eafd7fd6105.mp4",
+  "86c89aeb0c06": "media/clips/orb_whitby_abbey_156/86c89aeb0c06.mp4",
+  "e1d5de6f0c32": "media/clips/hs2_the_iron_bridge_117/e1d5de6f0c32.mp4",
+  "90a29a5ce5cc": "media/clips/hs2_castello_di_miramare_trieste_340/90a29a5ce5cc.mp4",
+  "3e5048b16bea": "media/clips/hs2_bara_imambara_230/3e5048b16bea.mp4",
+  "caa48d6ad78a": "media/clips/orb_whitby_abbey_156/caa48d6ad78a.mp4",
+  "942fc6e950ac": "media/clips/hs2_theatre_of_hierapolis_37/942fc6e950ac.mp4",
+  "eb17dd7715a6": "media/clips/orb_erechtheum_270/eb17dd7715a6.mp4",
   "9d4d21e9899f": "media/clips/hs2_ancient_roman_theatre_aosta_50/9d4d21e9899f.mp4",
+  "e46117ed98e3": "media/clips/hs2_castello_di_miramare_trieste_340/e46117ed98e3.mp4",
   "cd1440969bd4": "media/clips/hs2_fulda_cathedral_166/cd1440969bd4.mp4",
   "6f0773a399c7": "media/clips/hs2_ancient_roman_theatre_aosta_50/6f0773a399c7.mp4",
-  "093e08881f19": "media/clips/orb_erechtheum_270/093e08881f19.mp4",
-  "86c89aeb0c06": "media/clips/orb_whitby_abbey_156/86c89aeb0c06.mp4"
+  "ee2832f2b877": "media/clips/orb_cathedral_of_talin_160/ee2832f2b877.mp4",
+  "342ab3430db9": "media/clips/orb_temple_of_zeus_in_athens_450/342ab3430db9.mp4"
  },
  "cells": {
   "hs2_ancient_roman_theatre_aosta_50": {
@@ -9268,91 +9266,89 @@
   "db99a4dc1c1f": 9.25,
   "d2df6b03c661": 29.0,
   "725d2bd13e81": 29.0,
-  "945579caf6c8": 15.875,
-  "64c783afb842": 15.875,
-  "531b1ba0ecd8": 19.25,
-  "b7a9be6e1a0f": 17.0,
-  "620ce462b064": 17.0,
-  "b1540d6ab9ee": 19.25,
-  "c45f8a562581": 19.25,
-  "bff6b351d71b": 9.25,
-  "35cd08d98dcb": 9.25,
-  "334b164f5abb": 11.75,
-  "48cf7600cdf5": 11.75,
-  "d62f9e222f19": 9.25,
-  "558d30e0cb7a": 9.25,
-  "8200b3441ce7": 9.25,
-  "1c129d2bdf92": 11.75,
-  "2988685ae149": 11.75,
-  "4961b95ea8bf": 9.25,
-  "d06f443841ce": 9.25,
   "00508ab3e383": 9.25,
   "d691ecf79924": 9.25,
-  "74ce55162c0c": 29.0,
-  "ba038f2428db": 13.9375,
-  "dc58d1c6140c": 13.9375,
-  "acbde5341321": 19.25,
-  "beae39ef0f5d": 9.25,
-  "6b9bd48ed7a9": 9.25,
+  "9d1844811cf4": 9.25,
+  "d06f443841ce": 9.25,
+  "c45f8a562581": 19.25,
+  "36a697460492": 19.25,
+  "945579caf6c8": 15.875,
+  "64c783afb842": 15.875,
+  "620ce462b064": 17.0,
+  "b7a9be6e1a0f": 17.0,
+  "334b164f5abb": 11.75,
+  "48cf7600cdf5": 11.75,
+  "dc2b0f6d0a8a": 9.25,
+  "66fb5e6822b0": 9.25,
+  "35cd08d98dcb": 9.25,
+  "0be1d7b82818": 19.25,
+  "d62f9e222f19": 9.25,
+  "558d30e0cb7a": 9.25,
+  "61a40850b4db": 19.1875,
+  "301e9d765093": 19.1875,
   "d4380fdbc8eb": 11.75,
   "c4df9ab5c27a": 11.75,
-  "e1d5de6f0c32": 9.25,
-  "9893559d98fa": 19.25,
-  "36a697460492": 19.25,
-  "a66d1e77cb0c": 29.0,
-  "241a59905f92": 9.25,
-  "56d4e757bf11": 9.25,
-  "43d2816d0bee": 17.0,
-  "6f0c0e7bbae3": 19.25,
-  "b4185556190f": 9.25,
-  "f4663f704413": 9.25,
-  "80d970653c76": 11.75,
-  "66fb5e6822b0": 9.25,
-  "93a985f0eb8a": 23.9375,
-  "4fb39632a8d9": 23.9375,
-  "3e5048b16bea": 9.25,
-  "e9b7e59466fb": 9.25,
-  "83eefcf4145b": 19.1875,
-  "61a40850b4db": 19.1875,
-  "d9f9b4e01c6a": 11.75,
-  "c0e6bedc5888": 11.75,
-  "caa48d6ad78a": 19.25,
-  "225d49e4b3d9": 9.25,
-  "146033917c21": 11.75,
-  "c98309b01545": 16.3125,
-  "782c35807c44": 16.3125,
-  "301e9d765093": 19.1875,
-  "af7534e5f301": 9.25,
-  "92d450adfcb7": 9.25,
-  "bf5fa9f5541a": 9.25,
-  "942fc6e950ac": 11.75,
+  "1c548e635917": 9.25,
   "c365c1e987eb": 19.25,
   "64222c3c0280": 19.25,
-  "002af1a54270": 29.0,
-  "17613e2141d1": 19.25,
-  "8eafd7fd6105": 9.25,
-  "5d52bdbd7c40": 9.25,
-  "74efca2236a2": 9.25,
-  "0be1d7b82818": 19.25,
-  "90a29a5ce5cc": 9.25,
-  "4a4a36e39162": 9.25,
-  "ee2832f2b877": 19.25,
-  "9d1844811cf4": 9.25,
+  "c0e6bedc5888": 11.75,
+  "d9f9b4e01c6a": 11.75,
+  "782c35807c44": 16.3125,
+  "c98309b01545": 16.3125,
+  "74ce55162c0c": 29.0,
+  "bf5fa9f5541a": 9.25,
+  "9893559d98fa": 19.25,
+  "117e6f806ae1": 9.25,
+  "43d2816d0bee": 17.0,
+  "a66d1e77cb0c": 29.0,
   "7c1cf47ecf7f": 9.25,
   "0f1746db3b67": 9.25,
-  "117e6f806ae1": 9.25,
-  "eb17dd7715a6": 19.25,
-  "d255ee770092": 11.75,
-  "dc2b0f6d0a8a": 9.25,
-  "e46117ed98e3": 9.25,
-  "175b81ee9404": 19.1875,
-  "342ab3430db9": 19.1875,
-  "1c548e635917": 9.25,
+  "531b1ba0ecd8": 19.25,
+  "80d970653c76": 11.75,
+  "1c129d2bdf92": 11.75,
+  "ba038f2428db": 13.9375,
+  "dc58d1c6140c": 13.9375,
+  "225d49e4b3d9": 9.25,
+  "093e08881f19": 19.25,
+  "beae39ef0f5d": 9.25,
+  "6b9bd48ed7a9": 9.25,
+  "bff6b351d71b": 9.25,
   "3388cea5e334": 11.75,
+  "acbde5341321": 19.25,
+  "8200b3441ce7": 9.25,
+  "146033917c21": 11.75,
+  "4fb39632a8d9": 23.9375,
+  "93a985f0eb8a": 23.9375,
+  "af7534e5f301": 9.25,
+  "92d450adfcb7": 9.25,
+  "83eefcf4145b": 19.1875,
+  "6f0c0e7bbae3": 19.25,
+  "d255ee770092": 11.75,
+  "2988685ae149": 11.75,
+  "4961b95ea8bf": 9.25,
+  "002af1a54270": 29.0,
+  "b1540d6ab9ee": 19.25,
+  "74efca2236a2": 9.25,
+  "5d52bdbd7c40": 9.25,
+  "17613e2141d1": 19.25,
+  "4a4a36e39162": 9.25,
+  "e9b7e59466fb": 9.25,
+  "b4185556190f": 9.25,
+  "f4663f704413": 9.25,
+  "175b81ee9404": 19.1875,
+  "8eafd7fd6105": 9.25,
+  "86c89aeb0c06": 19.25,
+  "e1d5de6f0c32": 9.25,
+  "90a29a5ce5cc": 9.25,
+  "3e5048b16bea": 9.25,
+  "caa48d6ad78a": 19.25,
+  "942fc6e950ac": 11.75,
+  "eb17dd7715a6": 19.25,
   "9d4d21e9899f": 17.0,
+  "e46117ed98e3": 9.25,
   "cd1440969bd4": 11.75,
   "6f0773a399c7": 17.0,
-  "093e08881f19": 19.25,
-  "86c89aeb0c06": 19.25
+  "ee2832f2b877": 19.25,
+  "342ab3430db9": 19.1875
  }
 }

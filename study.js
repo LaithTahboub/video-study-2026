@@ -1,7 +1,10 @@
 /* Pairwise video study: two-alternative forced choice, side by side; a main question (which video to tour with) and side questions per trial.
    No build step. Reads config.js (window.STUDY_CONFIG) and data/study.json (forms, clips, inputs).
    URL options: f=<form> pins a form; reset=1 clears this browser's saved session;
-   test only: autotest=1 answers by itself, rate=<x> plays faster, ext=webm loads the VP9 test copies. */
+   test only: autotest=1 answers by itself, rate=<x> plays faster, ext=webm loads the VP9 test copies.
+   config.js min_width (px, 0 = off): a narrower window gets a page asking for a laptop or desktop instead of the study;
+   nothing starts (no form is taken from the counter) until the window is wide enough, and a window that narrows later
+   is covered again and both videos pause. */
 (function () {
   'use strict';
 
@@ -12,6 +15,7 @@
   var RATE = parseFloat(Q.get('rate') || '1') || 1;
   // preview only (config.js no_wait: true): answers and Next unlock at once, without watching both videos to the end
   var NO_WAIT = CFG.no_wait === true;
+  var MIN_WIDTH = Math.max(0, parseInt(CFG.min_width, 10) || 0);   // 2026-11-05: small-screen gate, 0 = off
   var EXT = Q.get('ext');
   var LS_KEY = 'vts_state_v1';
   var SEND_EVERY = 1;   // 2026-11-05: after every trial, so a rater who stops early loses nothing
@@ -478,5 +482,19 @@
     }).catch(function (e) { fail('The study data could not be loaded (' + e.message + ').'); });
   }
 
-  init();
+  // ---------- small-screen gate ----------
+  var started = false;
+  function tooNarrow() { return MIN_WIDTH > 0 && window.innerWidth < MIN_WIDTH; }
+  function gate() {
+    var on = tooNarrow();
+    $('gate').hidden = !on;
+    if (on && cur && !cur.paused) {          // narrowed during a trial: hold both videos until the rater resumes
+      cur.paused = true;
+      $('vid-L').pause(); $('vid-R').pause();
+      $('btn-pause').textContent = 'Resume';
+    }
+    if (!on && !started) { started = true; init(); }
+  }
+  window.addEventListener('resize', gate);
+  gate();
 })();

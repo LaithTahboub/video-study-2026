@@ -101,3 +101,7 @@ a { color: var(--accent); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+/* small-screen gate (config.js min_width; 0 = off): covers the page while the window is narrower */
+.gate { position: fixed; inset: 0; z-index: 50; background: var(--bg); display: flex; align-items: center; justify-content: center; padding: 24px; }
+.gate[hidden] { display: none; }
+.gate p { max-width: 30rem; font-size: 1.2rem; line-height: 1.5; text-align: center; margin: 0; }
