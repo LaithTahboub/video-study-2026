@@ -4,22 +4,22 @@
   {
    "id": "prefer",
    "role": "primary",
-   "text": "Which of the two videos would you prefer for virtually touring this place?"
+   "text": "Which video would you prefer for a virtual tour of this place?"
   },
   {
    "id": "look",
    "role": "secondary",
-   "text": "Which video better keeps the look of the starting photo (its light, colours, weather and time of day) all the way through?"
+   "text": "Which video better keeps the look of the starting photo from start to finish, including its lighting, colors, weather, and time of day?"
   },
   {
    "id": "place",
    "role": "secondary",
-   "text": "Which video better shows the real place in the photos (the right buildings and shapes)?"
+   "text": "Which video better matches the real place shown in the photos, including its buildings and their shapes?"
   },
   {
    "id": "quality",
    "role": "secondary",
-   "text": "Which video is higher quality: sharper, more detailed and more realistic?"
+   "text": "Which video looks sharper, more detailed, and more realistic?"
   }
  ],
  "n_forms": 60,
