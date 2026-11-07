@@ -4,7 +4,17 @@
    test only: autotest=1 answers by itself, rate=<x> plays faster, ext=webm loads the VP9 test copies.
    config.js min_width (px, 0 = off): a narrower window gets a page asking for a laptop or desktop instead of the study;
    nothing starts (no form is taken from the counter) until the window is wide enough, and a window that narrows later
-   is covered again and both videos pause. */
+   is covered again and both videos pause.
+   2026-11-07 (tour-v5), study.json options:
+     fixed_form       every rater gets this form (no counter, f= ignored);
+     drop_uids        trials of that form that are not shown;
+     order            {shuffle, keep_first, repeat_min_gap}: the other trials are shuffled once per rater (the first
+                      keep_first stay first; a trial and its repeat, the same two clips with the sides swapped, keep
+                      more than repeat_min_gap trials between them); the order is saved, so a reload resumes it, and
+                      sent with the answers (order, and each trial's position i);
+     near             per trial uid, [[t seconds, j], ...]: the closest-photo panel shows input j (0 = the starting
+                      photo, j = photos[j - 1]) from time t of the clips (pipeline/nearest.py, from cameras only).
+   Clicking a photo pauses both videos; closing it resumes them unless they were already paused. */
 (function () {
   'use strict';
 
@@ -19,6 +29,7 @@
   var EXT = Q.get('ext');
   var LS_KEY = 'vts_state_v1';
   var SEND_EVERY = 1;   // 2026-11-05: after every trial, so a rater who stops early loses nothing
+  var PAGE = '2026-11-07 one form, shuffled order, closest photo, pause on zoom';
 
   var S = null;      // study data
   var st = null;     // session state, saved in localStorage
@@ -64,7 +75,8 @@
   }
   function payload(type) {
     return {
-      type: type, study_id: S.study_id, session: st.session, form: st.form, form_how: st.form_how,
+      type: type, study_id: S.study_id, session: st.session, form: st.form, form_how: st.form_how, page: PAGE,
+      order: st.order || null,
       started: st.started, sent_at: new Date().toISOString(), meta: st.meta, n_trials: form.trials.length,
       done: st.idx >= form.trials.length, trials: st.trials
     };
@@ -90,6 +102,7 @@
 
   function pickForm() {
     var n = S.n_forms;
+    if (typeof S.fixed_form === 'number') return Promise.resolve({ form: S.fixed_form, how: 'fixed' });
     if (Q.has('f')) {
       var k = parseInt(Q.get('f'), 10) || 0;
       return Promise.resolve({ form: ((k % n) + n) % n, how: 'link' });
@@ -102,6 +115,39 @@
         return (typeof j.form === 'number' && isFinite(j.form)) ? { form: ((j.form % n) + n) % n, how: 'counter' } : random;
       })
       .catch(function () { return random; });
+  }
+
+  // ---------- one form, shuffled per rater (tour-v5) ----------
+  function randInt(n) {
+    var a = new Uint32Array(1);
+    (window.crypto || window.msCrypto).getRandomValues(a);
+    return a[0] % n;
+  }
+  function shuffledUids(trials) {
+    var o = S.order || {}, k = o.keep_first || 0, gap = o.repeat_min_gap || 0;
+    var head = trials.slice(0, k), rest = trials.slice(k), pairs = [];
+    rest.forEach(function (a) {
+      rest.forEach(function (b) { if (a.uid < b.uid && a.L === b.R && a.R === b.L) pairs.push([a.uid, b.uid]); });
+    });
+    for (var tries = 0; tries < 1000; tries++) {
+      var r = rest.slice();
+      for (var i = r.length - 1; i > 0; i--) { var j = randInt(i + 1), x = r[i]; r[i] = r[j]; r[j] = x; }
+      var pos = {};
+      r.forEach(function (t, i) { pos[t.uid] = i; });
+      if (pairs.every(function (p) { return Math.abs(pos[p[0]] - pos[p[1]]) > gap; })) {
+        return head.concat(r).map(function (t) { return t.uid; });
+      }
+    }
+    return trials.map(function (t) { return t.uid; });
+  }
+  // the trials this rater sees, in the order they see them (st.order, saved with the session)
+  function arrange(f) {
+    var drop = S.drop_uids || [], byUid = {};
+    var kept = f.trials.filter(function (t) { return drop.indexOf(t.uid) < 0; });
+    kept.forEach(function (t) { byUid[t.uid] = t; });
+    var valid = st.order && st.order.length === kept.length && st.order.every(function (u) { return byUid[u]; });
+    if (!valid) st.order = (S.order && S.order.shuffle) ? shuffledUids(kept) : kept.map(function (t) { return t.uid; });
+    return { form: f.form, trials: st.order.map(function (u) { return byUid[u]; }) };
   }
 
   // ---------- clips ----------
@@ -193,6 +239,53 @@
     });
   }
 
+  // closest-photo panel: follows the left video's clock (the right one is kept on it by syncR)
+  var near = null;   // {seg, cell, shown}
+  function setNear(t) {
+    var seg = (S.near && S.near[t.uid]) || null;
+    near = seg ? { seg: seg, cell: S.cells[t.cell], shown: -1 } : null;
+    $('near-fig').hidden = !near;
+    $('img-f0').classList.remove('is-near');
+    updateNear();
+  }
+  function updateNear() {
+    if (!near || !cur) return;
+    var tt = $('vid-L').currentTime || 0, j = near.seg[0][1];
+    for (var k = 0; k < near.seg.length && near.seg[k][0] <= tt + 1e-3; k++) j = near.seg[k][1];
+    if (j === near.shown) return;
+    near.shown = j;
+    $('img-near').src = j === 0 ? near.cell.f0 : near.cell.photos[j - 1];
+    $('near-label').textContent = j === 0 ? 'the starting photo' : 'other photo ' + j;
+    $('img-f0').classList.toggle('is-near', j === 0);
+    var th = $('img-others').children;
+    for (var m = 0; m < th.length; m++) th[m].classList.toggle('is-near', m === j - 1);
+    cur.rec.near_changes += 1;
+  }
+
+  // enlarged photo: both videos pause while it is open and resume when it closes, unless they were paused already
+  function openZoom(src) {
+    $('zoom-img').src = src;
+    $('zoom').hidden = false;
+    if (!cur) return;
+    cur.rec.zooms += 1;
+    if (!cur.paused) {
+      cur.paused = true;
+      cur.zoomPaused = true;
+      $('vid-L').pause(); $('vid-R').pause();
+      $('btn-pause').textContent = 'Resume';
+    }
+  }
+  function closeZoom() {
+    if ($('zoom').hidden) return;
+    $('zoom').hidden = true;
+    if (cur && cur.zoomPaused) {
+      cur.zoomPaused = false;
+      cur.paused = false;
+      $('vid-L').play(); $('vid-R').play();
+      $('btn-pause').textContent = 'Pause';
+    }
+  }
+
   function lockQuestions(locked) {
     document.querySelectorAll('.q').forEach(function (row) {
       row.classList.toggle('locked', locked);
@@ -265,7 +358,7 @@
     else if (Math.abs(d) > 0.03) { vR.playbackRate = RATE * (1 + Math.max(-0.3, Math.min(0.3, 3 * d / RATE))); }
     else if (vR.playbackRate !== RATE) { vR.playbackRate = RATE; }
   }
-  setInterval(syncR, 50);
+  setInterval(function () { syncR(); updateNear(); }, 50);
 
   function runTrial(i) {
     var t = form.trials[i];
@@ -274,7 +367,7 @@
       token: token, t0: now(), unlocked: NO_WAIT, paused: false, endedL: false, endedR: false,
       rec: {
         uid: t.uid, i: i, cell: t.cell, L: t.L, R: t.R, ans: {}, t_ans: {}, n_changes: 0, loops: 0,
-        restarts: 0, pauses: 0, t_ready: null, t_unlock: null, t_next: null, err: null,
+        restarts: 0, pauses: 0, zooms: 0, near_changes: 0, t_ready: null, t_unlock: null, t_next: null, err: null,
         vw: window.innerWidth, vh: window.innerHeight
       }
     };
@@ -284,6 +377,7 @@
     $('progress-fill').style.width = (100 * i / n) + '%';
     $('btn-next').textContent = i === n - 1 ? 'Finish' : 'Next trial';
     setInputs(t.cell);
+    setNear(t);
     buildQuestions();
     lockQuestions(!NO_WAIT);
     updateNext();
@@ -309,6 +403,7 @@
           $('msg-L').textContent = $('msg-R').textContent = '';
           cur.rec.t_ready = now() - cur.t0;
           startBoth();
+          if (cur.paused) { vL.pause(); vR.pause(); $('btn-pause').textContent = 'Resume'; }   // a photo is open
           prefetchTrial(i + 1);
         }
       }
@@ -410,14 +505,12 @@
     });
     document.addEventListener('click', function (e) {
       var t = e.target;
-      if (t && t.hasAttribute && t.hasAttribute('data-zoom')) { $('zoom-img').src = t.src; $('zoom').hidden = false; }
-      else if (!$('zoom').hidden && $('zoom').contains(t)) { $('zoom').hidden = true; }
+      if (t && t.hasAttribute && t.hasAttribute('data-zoom')) openZoom(t.src);
+      else if (!$('zoom').hidden && $('zoom').contains(t)) closeZoom();
     });
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') $('zoom').hidden = true;
-      if (e.key === 'Enter' && e.target && e.target.hasAttribute && e.target.hasAttribute('data-zoom')) {
-        $('zoom-img').src = e.target.src; $('zoom').hidden = false;
-      }
+      if (e.key === 'Escape') closeZoom();
+      if (e.key === 'Enter' && e.target && e.target.hasAttribute && e.target.hasAttribute('data-zoom')) openZoom(e.target.src);
     });
     $('btn-download').addEventListener('click', function () {
       var a = document.createElement('a');
@@ -453,7 +546,7 @@
       });
       return ready.then(function (s) {
         st = s;
-        form = S.forms[st.form];
+        form = arrange(S.forms[st.form]);
         save();
         autoRng = mulberry(parseInt(st.session.replace(/[^a-z0-9]/g, '').slice(0, 6), 36) || 1);
         var nTrials = form.trials.length;

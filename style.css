@@ -52,6 +52,12 @@ figcaption { color: var(--muted); font-size: 0.88rem; margin-bottom: 4px; }
 .inputs { display: flex; gap: 18px; align-items: flex-start; margin-bottom: 8px; }
 .inputs .f0 img { height: clamp(110px, 19vh, 210px); width: auto; border: 2px solid var(--accent); border-radius: 4px; display: block; cursor: zoom-in; }
 .inputs .others { flex: 1; min-width: 0; }
+/* closest-photo panel (tour-v5): the photo nearest the current view, outlined in yellow here and where it sits above */
+.inputs .near[hidden] { display: none; }
+.inputs .near img { height: clamp(110px, 19vh, 210px); width: auto; border: 2px solid var(--warn); border-radius: 4px; display: block; cursor: zoom-in; }
+.inputs .near figcaption { white-space: nowrap; }
+#near-label { color: var(--warn); font-weight: 600; }
+.inputs img.is-near { outline: 3px solid var(--warn); outline-offset: 1px; }
 .thumbs { display: flex; gap: 8px; flex-wrap: wrap; }
 .thumbs.many { gap: 6px; max-width: 100%; }
 .thumbs.many img { height: clamp(52px, 8.5vh, 100px); }
