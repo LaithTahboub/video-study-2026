@@ -287,13 +287,90 @@
     cur.rec.near_changes += 1;
   }
 
+  // ---------- guided tour on the practice trial (2026-11-08) ----------
+  // Each step darkens the page around one part of the screen and explains it; the videos wait until the tour ends.
+  var TOUR = [
+    { el: '.videos', title: 'Two videos to compare',
+      text: 'Both videos start at the starting photo and follow the same camera path. They play together and repeat by themselves. The questions unlock after one full play.' },
+    { el: 'figure.f0', title: 'Starting photo', important: true,
+      text: 'This is the appearance reference. A good video keeps its lighting, colors, weather, and time of day from start to finish.' },
+    { el: '#near-fig', title: 'Closest photo', important: true,
+      text: 'While the videos play, this shows the photo taken nearest to what the videos show at that moment. Use it to check the buildings, their shapes, and their details.' },
+    { el: '.inputs .others', title: 'All photos of the place',
+      text: 'Taken at other times, so their lighting can differ. The closest photo is outlined in yellow. Click any photo to enlarge it; the videos pause while it is open.' },
+    { el: '.controls', title: 'Playback',
+      text: 'Start both videos over or pause them here. Feel free to watch them as many times as you like.' },
+    { el: '#questions', title: 'The questions',
+      text: 'Pick Left or Right for each question. If both seem equally good, pick the one you slightly prefer.' },
+    { el: '.nextrow', title: 'Next trial',
+      text: 'Then continue. This practice trial does not count. Press Start to play the videos.' }
+  ];
+  var tour = null;   // {k, t0}
+  function startTour() {
+    tour = { k: 0, t0: now() };
+    cur.paused = true;
+    cur.inTour = true;
+    $('vid-L').pause(); $('vid-R').pause();
+    ['tour-block', 'tour-spot', 'tour-pop'].forEach(function (id) { $(id).hidden = false; });
+    $('tour-skip').hidden = !PREVIEW;
+    showStep(0);
+  }
+  function showStep(k) {
+    tour.k = k;
+    var s = TOUR[k], el = document.querySelector(s.el);
+    if (el && el.scrollIntoView) el.scrollIntoView({ block: 'center', inline: 'nearest' });
+    $('tour-title').innerHTML = (s.important ? '<span class="important">Important:</span> ' : '') + s.title;
+    $('tour-text').textContent = s.text;
+    $('tour-step').textContent = (k + 1) + ' of ' + TOUR.length;
+    $('tour-back').disabled = k === 0;
+    $('tour-next').textContent = k === TOUR.length - 1 ? 'Start' : 'Next';
+    placeTour();
+    $('tour-next').focus();
+  }
+  function placeTour() {
+    if (!tour) return;
+    var el = document.querySelector(TOUR[tour.k].el);
+    if (!el) return;
+    var r = el.getBoundingClientRect(), pad = 6, vw = window.innerWidth, vh = window.innerHeight;
+    var sp = $('tour-spot');
+    sp.style.left = (r.left - pad) + 'px'; sp.style.top = (r.top - pad) + 'px';
+    sp.style.width = (r.width + 2 * pad) + 'px'; sp.style.height = (r.height + 2 * pad) + 'px';
+    var pop = $('tour-pop'), pw = pop.offsetWidth, ph = pop.offsetHeight;
+    var below = r.bottom + pad + 14 + ph <= vh || r.top - pad - 14 - ph < 0;
+    var top = below ? r.bottom + pad + 14 : r.top - pad - 14 - ph;
+    top = Math.max(8, Math.min(top, vh - ph - 8));
+    var cx = r.left + r.width / 2, left = Math.max(16, Math.min(cx - pw / 2, vw - pw - 16));
+    pop.style.top = top + 'px'; pop.style.left = left + 'px';
+    pop.classList.toggle('below', below); pop.classList.toggle('above', !below);
+    $('tour-arrow').style.left = Math.max(14, Math.min(cx - left - 7, pw - 28)) + 'px';
+  }
+  function endTour() {
+    if (!tour) return;
+    if (cur) {
+      cur.rec.tour_ms = now() - tour.t0;
+      cur.rec.tour_steps = tour.k + 1;
+      cur.inTour = false;
+      cur.paused = false;
+      var v = $('vid-L');
+      if (v.readyState >= 2) startBoth();          // otherwise the videos start when they are ready
+    }
+    tour = null;
+    ['tour-block', 'tour-spot', 'tour-pop'].forEach(function (id) { $(id).hidden = true; });
+  }
+  window.__vtsDebug = function () {    // test hook (read only): the running trial's player state
+    return cur ? { paused: cur.paused, manual: !!cur.manual, inTour: !!cur.inTour, zoomPaused: !!cur.zoomPaused,
+      endedL: cur.endedL, endedR: cur.endedR, unlocked: cur.unlocked, tour: !!tour } : null;
+  };
+  window.addEventListener('resize', placeTour);
+  window.addEventListener('scroll', placeTour, true);
+
   // enlarged photo: both videos pause while it is open and resume when it closes, unless they were paused already
   function openZoom(src) {
     $('zoom-img').src = src;
     $('zoom').hidden = false;
     if (!cur) return;
     cur.rec.zooms += 1;
-    if (!cur.paused) {
+    if (!cur.inTour && !cur.manual) {                 // paused by the rater with Pause: stays paused after the photo
       cur.paused = true;
       cur.zoomPaused = true;
       $('vid-L').pause(); $('vid-R').pause();
@@ -306,7 +383,9 @@
     if (cur && cur.zoomPaused) {
       cur.zoomPaused = false;
       cur.paused = false;
-      $('vid-L').play(); $('vid-R').play();
+      var vL = $('vid-L'), vR = $('vid-R');
+      if (vL.ended || vR.ended || cur.endedL || cur.endedR) startBoth();   // opened between two plays
+      else { vL.play(); vR.play(); }
       $('btn-pause').textContent = 'Pause';
     }
   }
@@ -413,6 +492,7 @@
     vL.removeAttribute('src'); vR.removeAttribute('src'); vL.load(); vR.load();
     $('msg-L').textContent = $('msg-R').textContent = 'Loading video...';
     show('screen-trial');
+    if (t.practice && !AUTOTEST) setTimeout(function () { if (cur && cur.token === token) startTour(); }, 60);
 
     Promise.all([prefetch(t.L), prefetch(t.R)]).then(function (urls) {
       if (!cur || cur.token !== token) return;
@@ -515,15 +595,18 @@
     $('btn-howto').addEventListener('click', function () { st.idx = 0; save(); runTrial(0); });
     $('btn-restart').addEventListener('click', function () {
       if (!cur) return;
-      cur.rec.restarts += 1; cur.paused = false; startBoth();
+      cur.rec.restarts += 1; cur.paused = false; cur.manual = false; startBoth();
     });
     $('btn-pause').addEventListener('click', function () {
       if (!cur) return;
       var vL = $('vid-L'), vR = $('vid-R');
-      if (cur.paused) { cur.paused = false; vL.play(); vR.play(); this.textContent = 'Pause'; }
-      else { cur.paused = true; cur.rec.pauses += 1; vL.pause(); vR.pause(); this.textContent = 'Resume'; }
+      if (cur.paused) { cur.paused = false; cur.manual = false; vL.play(); vR.play(); this.textContent = 'Pause'; }
+      else { cur.paused = true; cur.manual = true; cur.rec.pauses += 1; vL.pause(); vR.pause(); this.textContent = 'Resume'; }
     });
     $('btn-next').addEventListener('click', nextTrial);
+    $('tour-next').addEventListener('click', function () { if (tour) { if (tour.k < TOUR.length - 1) showStep(tour.k + 1); else endTour(); } });
+    $('tour-back').addEventListener('click', function () { if (tour && tour.k > 0) showStep(tour.k - 1); });
+    $('tour-skip').addEventListener('click', endTour);
     $('vid-L').addEventListener('ended', function () { onEnded('L'); });
     $('vid-R').addEventListener('ended', function () { onEnded('R'); });
     $('vid-L').addEventListener('timeupdate', setStatus);
@@ -536,6 +619,7 @@
       else if (!$('zoom').hidden && $('zoom').contains(t)) closeZoom();
     });
     document.addEventListener('keydown', function (e) {
+      if (tour && e.key === 'Enter') { e.preventDefault(); $('tour-next').click(); return; }
       if (e.key === 'Escape') closeZoom();
       if (e.key === 'Enter' && e.target && e.target.hasAttribute && e.target.hasAttribute('data-zoom')) openZoom(e.target.src);
     });

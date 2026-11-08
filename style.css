@@ -118,3 +118,17 @@ a { color: var(--accent); }
 .gate { position: fixed; inset: 0; z-index: 50; background: var(--bg); display: flex; align-items: center; justify-content: center; padding: 24px; }
 .gate[hidden] { display: none; }
 .gate p { max-width: 30rem; font-size: 1.2rem; line-height: 1.5; text-align: center; margin: 0; }
+
+/* guided tour on the practice trial (2026-11-08, the user and a teammate: less text, show the screen instead):
+   the rest of the page is darkened around a spotlight on one part, with a popup that points at it */
+.tour-block { position: fixed; inset: 0; z-index: 40; }
+.tour-block[hidden], .tour-spot[hidden], .tour-pop[hidden] { display: none; }
+.tour-spot { position: fixed; z-index: 41; border-radius: 6px; box-shadow: 0 0 0 200vmax rgba(8, 8, 9, 0.78); outline: 2px solid var(--accent); pointer-events: none; transition: all 0.25s ease; }
+.tour-pop { position: fixed; z-index: 42; width: min(440px, calc(100vw - 32px)); background: var(--panel); border: 1px solid var(--accent); border-radius: 8px; padding: 12px 16px 10px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5); }
+.tour-title { font-weight: 700; font-size: 1.05rem; margin: 0 0 4px; }
+.tour-text { margin: 0 0 10px; line-height: 1.45; }
+.tour-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.tour-btns { display: flex; gap: 8px; }
+.tour-arrow { position: absolute; width: 14px; height: 14px; background: var(--panel); border-left: 1px solid var(--accent); border-top: 1px solid var(--accent); transform: rotate(45deg); }
+.tour-pop.below .tour-arrow { top: -8px; }
+.tour-pop.above .tour-arrow { bottom: -8px; transform: rotate(225deg); }
