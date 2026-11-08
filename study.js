@@ -14,7 +14,13 @@
                       sent with the answers (order, and each trial's position i);
      near             per trial uid, [[t seconds, j], ...]: the closest-photo panel shows input j (0 = the starting
                       photo, j = photos[j - 1]) from time t of the clips (pipeline/nearest.py, from cameras only).
-   Clicking a photo pauses both videos; closing it resumes them unless they were already paused. */
+     order.spread     [{uids, min_between}]: more than min_between trials between any two of these (the attention
+                      checks); a saved order that breaks a rule is drawn again;
+     scene_names      per trial uid, shown only in preview mode.
+   Clicking a photo pauses both videos; closing it resumes them unless they were already paused.
+   preview=1 (for the author's own testing): answers and Next unlock at once (no need to watch the videos to the end)
+   and the scene name, path and trial id are shown above the photos; such a session is marked meta.preview and left
+   out of the analysis. */
 (function () {
   'use strict';
 
@@ -24,7 +30,8 @@
   var AUTOTEST = Q.get('autotest') === '1';
   var RATE = parseFloat(Q.get('rate') || '1') || 1;
   // preview only (config.js no_wait: true): answers and Next unlock at once, without watching both videos to the end
-  var NO_WAIT = CFG.no_wait === true;
+  var PREVIEW = Q.get('preview') === '1';
+  var NO_WAIT = CFG.no_wait === true || PREVIEW;
   var MIN_WIDTH = Math.max(0, parseInt(CFG.min_width, 10) || 0);   // 2026-11-05: small-screen gate, 0 = off
   var EXT = Q.get('ext');
   var LS_KEY = 'vts_state_v1';
@@ -123,20 +130,33 @@
     (window.crypto || window.msCrypto).getRandomValues(a);
     return a[0] % n;
   }
-  function shuffledUids(trials) {
-    var o = S.order || {}, k = o.keep_first || 0, gap = o.repeat_min_gap || 0;
-    var head = trials.slice(0, k), rest = trials.slice(k), pairs = [];
-    rest.forEach(function (a) {
-      rest.forEach(function (b) { if (a.uid < b.uid && a.L === b.R && a.R === b.L) pairs.push([a.uid, b.uid]); });
+  // the ordering rules as [uid a, uid b, more than this many trials between them]
+  function orderRules(trials) {
+    var o = S.order || {}, rules = [], uids = trials.map(function (t) { return t.uid; });
+    trials.forEach(function (a) {
+      trials.forEach(function (b) {
+        if (a.uid < b.uid && a.L === b.R && a.R === b.L) rules.push([a.uid, b.uid, o.repeat_min_gap || 0]);
+      });
     });
-    for (var tries = 0; tries < 1000; tries++) {
+    (o.spread || []).forEach(function (g) {
+      var u = g.uids.filter(function (x) { return uids.indexOf(x) >= 0; });
+      for (var i = 0; i < u.length; i++) for (var j = i + 1; j < u.length; j++) rules.push([u[i], u[j], g.min_between || 0]);
+    });
+    return rules;
+  }
+  function obeys(order, rules) {
+    var pos = {};
+    order.forEach(function (u, i) { pos[u] = i; });
+    return rules.every(function (r) { return Math.abs(pos[r[0]] - pos[r[1]]) > r[2]; });
+  }
+  function shuffledUids(trials) {
+    var k = (S.order || {}).keep_first || 0, rules = orderRules(trials);
+    var head = trials.slice(0, k).map(function (t) { return t.uid; });
+    var rest = trials.slice(k).map(function (t) { return t.uid; });
+    for (var tries = 0; tries < 5000; tries++) {
       var r = rest.slice();
       for (var i = r.length - 1; i > 0; i--) { var j = randInt(i + 1), x = r[i]; r[i] = r[j]; r[j] = x; }
-      var pos = {};
-      r.forEach(function (t, i) { pos[t.uid] = i; });
-      if (pairs.every(function (p) { return Math.abs(pos[p[0]] - pos[p[1]]) > gap; })) {
-        return head.concat(r).map(function (t) { return t.uid; });
-      }
+      if (obeys(head.concat(r), rules)) return head.concat(r);
     }
     return trials.map(function (t) { return t.uid; });
   }
@@ -145,7 +165,8 @@
     var drop = S.drop_uids || [], byUid = {};
     var kept = f.trials.filter(function (t) { return drop.indexOf(t.uid) < 0; });
     kept.forEach(function (t) { byUid[t.uid] = t; });
-    var valid = st.order && st.order.length === kept.length && st.order.every(function (u) { return byUid[u]; });
+    var valid = st.order && st.order.length === kept.length && st.order.every(function (u) { return byUid[u]; }) &&
+      (!(S.order && S.order.shuffle) || obeys(st.order, orderRules(kept)));
     if (!valid) st.order = (S.order && S.order.shuffle) ? shuffledUids(kept) : kept.map(function (t) { return t.uid; });
     return { form: f.form, trials: st.order.map(function (u) { return byUid[u]; }) };
   }
@@ -374,6 +395,8 @@
     var n = form.trials.length;
     $('trial-label').textContent = 'Trial ' + (i + 1) + ' of ' + n;
     $('practice-tag').hidden = !t.practice;
+    $('scene-tag').hidden = !PREVIEW;
+    if (PREVIEW) $('scene-tag').textContent = 'Preview: ' + ((S.scene_names || {})[t.uid] || t.cell + ', trial ' + t.uid);
     $('progress-fill').style.width = (100 * i / n) + '%';
     $('btn-next').textContent = i === n - 1 ? 'Finish' : 'Next trial';
     setInputs(t.cell);
@@ -546,6 +569,7 @@
       });
       return ready.then(function (s) {
         st = s;
+        if (PREVIEW) st.meta.preview = true;     // sticky: a session that ever ran in preview mode is not a rater's
         form = arrange(S.forms[st.form]);
         save();
         autoRng = mulberry(parseInt(st.session.replace(/[^a-z0-9]/g, '').slice(0, 6), 36) || 1);

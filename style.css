@@ -44,28 +44,31 @@ button.primary { background: var(--accent); color: var(--accent-ink); border-col
 .trialbar { display: flex; align-items: center; gap: 16px; margin-bottom: 8px; }
 .progress-text { display: flex; gap: 10px; align-items: center; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .tag { background: var(--warn); color: #231a05; border-radius: 4px; padding: 1px 8px; font-size: 0.85rem; font-weight: 600; }
+.tag.preview { background: var(--accent); color: var(--accent-ink); }
+.tag[hidden] { display: none; }
 .progress { flex: 1; height: 6px; background: var(--panel); border-radius: 3px; overflow: hidden; }
 #progress-fill { height: 100%; width: 0; background: var(--accent); }
 
 figure { margin: 0; }
 figcaption { color: var(--muted); font-size: 0.88rem; margin-bottom: 4px; }
 .inputs { display: flex; gap: 18px; align-items: flex-start; margin-bottom: 8px; }
-.inputs .f0 img { height: clamp(110px, 19vh, 210px); width: auto; border: 2px solid var(--accent); border-radius: 4px; display: block; cursor: zoom-in; }
+.inputs .f0 img { height: clamp(130px, 24vh, 300px); width: auto; border: 2px solid var(--accent); border-radius: 4px; display: block; cursor: zoom-in; }
 .inputs .others { flex: 1; min-width: 0; }
-/* closest-photo panel (tour-v5): the photo nearest the current view, outlined in yellow here and where it sits above */
+/* closest-photo panel (tour-v5): the photo nearest the current view, outlined in yellow here and where it sits above.
+   2026-11-07 night (the user): the starting and closest photos larger, the other photos smaller */
 .inputs .near[hidden] { display: none; }
-.inputs .near img { height: clamp(110px, 19vh, 210px); width: auto; border: 2px solid var(--warn); border-radius: 4px; display: block; cursor: zoom-in; }
+.inputs .near img { height: clamp(130px, 24vh, 300px); width: auto; border: 2px solid var(--warn); border-radius: 4px; display: block; cursor: zoom-in; }
 .inputs .near figcaption { white-space: nowrap; }
 #near-label { color: var(--warn); font-weight: 600; }
 .inputs img.is-near { outline: 3px solid var(--warn); outline-offset: 1px; }
 .thumbs { display: flex; gap: 8px; flex-wrap: wrap; }
 .thumbs.many { gap: 6px; max-width: 100%; }
-.thumbs.many img { height: clamp(52px, 8.5vh, 100px); }
-.thumbs img { height: clamp(80px, 13.5vh, 150px); width: auto; border-radius: 4px; display: block; cursor: zoom-in; border: 1px solid var(--line); }
+.thumbs.many img { height: clamp(36px, 6.2vh, 72px); }
+.thumbs img { height: clamp(44px, 8vh, 96px); width: auto; border-radius: 4px; display: block; cursor: zoom-in; border: 1px solid var(--line); }
 
 .videos { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .videos figcaption { font-size: 1rem; color: var(--text); font-weight: 600; }
-.vbox { position: relative; background: #000; border-radius: 4px; overflow: hidden; aspect-ratio: 832 / 480; max-height: max(220px, min(52vh, calc(100vh - 478px))); margin: 0 auto; }
+.vbox { position: relative; background: #000; border-radius: 4px; overflow: hidden; aspect-ratio: 832 / 480; max-height: max(220px, min(52vh, calc(95vh - 478px))); margin: 0 auto; }
 .vbox video { width: 100%; height: 100%; object-fit: contain; display: block; background: #000; }
 .vmsg { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: var(--muted); pointer-events: none; text-align: center; padding: 12px; }
 
