@@ -52,8 +52,10 @@
   <h1>The questions</h1>
   <div class="card">
     <ol class="qlist" id="howto-questions"></ol>
-    <p>The <strong>starting photo</strong> shows how the video should look: its lighting, colors, weather, and time of day. The <strong>other photos</strong> were taken at other times, so they can look different (for example sunny instead of cloudy, or day instead of night). Use them to see what the place is really like: its buildings and their shapes.</p>
-    <p>Next to the starting photo is the <strong>closest photo</strong>. It changes while the videos play: at every moment it shows the photo taken from the viewpoint closest to what the videos show, and the same photo is outlined in yellow at the top. Compare both videos with it to see whether they show the real place correctly. It may have been taken in different weather or light, so for lighting, colors, and time of day, compare with the starting photo.</p>
+    <p><span class="important">Important:</span> the <strong>starting photo</strong> is the reference for appearance. Both videos should keep its lighting, colors, weather, and time of day from start to finish.</p>
+    <p>The <strong>other photos</strong> were taken at other times, so they can look different (for example sunny instead of cloudy, or day instead of night). Use them to see what the place is really like: its buildings and their shapes.</p>
+    <p><span class="important">Important:</span> next to the starting photo is the <strong>closest photo</strong>. While the videos play, it always shows the photo taken from the viewpoint closest to what the videos show at that moment, and the same photo is outlined in yellow at the top. Rely on it to judge which video shows the real place better: its buildings, their shapes, and their details. It may have been taken in different weather or light, so judge lighting and colors against the starting photo, not the closest photo.</p>
+    <p>Both videos begin at the starting photo, so they look alike at first. The differences usually appear later, so pay attention until the end.</p>
     <p>Feel free to click any of the photos at the top to look at them closely. The videos pause while a photo is open and continue when you close it. Also feel free to watch the videos more than once. They repeat by themselves, and "Play both from the start" starts them over.</p>
     <p>The first trial is for practice and does not count.</p>
   </div>
@@ -68,12 +70,12 @@
 
   <div class="inputs">
     <figure class="f0">
-      <figcaption>Starting photo</figcaption>
+      <figcaption>Starting photo (the appearance to keep)</figcaption>
       <img id="img-f0" alt="Starting photo" data-zoom>
     </figure>
     <figure class="near" id="near-fig">
-      <figcaption>Closest photo (<span id="near-label">the starting photo</span>)</figcaption>
-      <img id="img-near" alt="Closest photo to the current view" data-zoom>
+      <figcaption>Closest photo (to judge the place)</figcaption>
+      <div class="nearwrap"><img id="img-near" alt="Closest photo to the current view" data-zoom><span id="near-label" class="badge">Starting photo</span></div>
     </figure>
     <figure class="others">
       <figcaption>Other photos of this place, taken at other times. Click any photo to enlarge it.</figcaption>

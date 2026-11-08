@@ -280,7 +280,7 @@
     if (j === near.shown) return;
     near.shown = j;
     $('img-near').src = j === 0 ? near.cell.f0 : near.cell.photos[j - 1];
-    $('near-label').textContent = j === 0 ? 'the starting photo' : 'other photo ' + j;
+    $('near-label').textContent = j === 0 ? 'Starting photo' : 'Other photo ' + j;
     $('img-f0').classList.toggle('is-near', j === 0);
     var th = $('img-others').children;
     for (var m = 0; m < th.length; m++) th[m].classList.toggle('is-near', m === j - 1);
