@@ -37,7 +37,7 @@
   var EXT = Q.get('ext');
   var LS_KEY = 'vts_state_v1';
   var SEND_EVERY = 1;   // 2026-11-05: after every trial, so a rater who stops early loses nothing
-  var PAGE = '2026-11-07 one form, shuffled order, closest photo, pause on zoom';
+  var PAGE = '2026-11-08 one form, shuffled order, closest photo, pause on zoom, guided tour, Same option';
 
   var S = null;      // study data
   var st = null;     // session state, saved in localStorage
@@ -220,13 +220,14 @@
     txt.appendChild(document.createTextNode(q.text));
     var ch = document.createElement('div');
     ch.className = 'choices';
-    ['L', 'R'].forEach(function (side) {
+    ['L', 'T', 'R'].forEach(function (side) {   // 2026-11-08: a Same option between Left and Right (answer 'T')
       var b = document.createElement('button');
       b.type = 'button';
       b.id = 'ans-' + q.id + '-' + side;
-      b.textContent = side === 'L' ? 'Left' : 'Right';
+      b.textContent = side === 'L' ? 'Left' : side === 'T' ? 'Same' : 'Right';
+      if (side === 'T') b.className = 'same';
       b.setAttribute('aria-pressed', 'false');
-      b.setAttribute('aria-label', (side === 'L' ? 'Left' : 'Right') + ': ' + q.text);
+      b.setAttribute('aria-label', (side === 'L' ? 'Left' : side === 'T' ? 'About the same' : 'Right') + ': ' + q.text);
       b.disabled = true;
       b.addEventListener('click', function () { answer(q.id, side); });
       ch.appendChild(b);
@@ -301,7 +302,7 @@
     { el: '.controls', title: 'Playback',
       text: 'Start both videos over or pause them here. Feel free to watch them as many times as you like.' },
     { el: '#questions', title: 'The questions',
-      text: 'Pick Left or Right for each question. If both seem equally good, pick the one you slightly prefer.' },
+      text: 'Pick Left or Right for each question, or Same if you really cannot tell them apart.' },
     { el: '.nextrow', title: 'Next trial',
       text: 'Then continue. This practice trial does not count. Press Start to play the videos.' }
   ];
@@ -409,7 +410,7 @@
     cur.rec.ans[qid] = side;
     cur.rec.t_ans[qid] = now() - cur.t0;
     cur.rec.n_changes += 1;
-    ['L', 'R'].forEach(function (s) { $('ans-' + qid + '-' + s).setAttribute('aria-pressed', String(s === side)); });
+    ['L', 'T', 'R'].forEach(function (s) { $('ans-' + qid + '-' + s).setAttribute('aria-pressed', String(s === side)); });
     save();
     updateNext();
     if (AUTOTEST) autoNext();
