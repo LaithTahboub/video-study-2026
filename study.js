@@ -14,6 +14,7 @@
                       sent with the answers (order, and each trial's position i);
      near             per trial uid, [[t seconds, j], ...]: the closest-photo panel shows input j (0 = the starting
                       photo, j = photos[j - 1]) from time t of the clips (pipeline/nearest.py, from cameras only).
+     order.pairs      [[uid, its repeat uid]]: kept more than repeat_min_gap apart like same-clip pairs;
      order.spread     [{uids, min_between}]: more than min_between trials between any two of these (the attention
                       checks); a saved order that breaks a rule is drawn again;
      scene_names      per trial uid, shown only in preview mode.
@@ -137,6 +138,9 @@
       trials.forEach(function (b) {
         if (a.uid < b.uid && a.L === b.R && a.R === b.L) rules.push([a.uid, b.uid, o.repeat_min_gap || 0]);
       });
+    });
+    (o.pairs || []).forEach(function (pr) {         // a trial and its repeat named in study.json (a cut repeat has new clips)
+      if (uids.indexOf(pr[0]) >= 0 && uids.indexOf(pr[1]) >= 0) rules.push([pr[0], pr[1], o.repeat_min_gap || 0]);
     });
     (o.spread || []).forEach(function (g) {
       var u = g.uids.filter(function (x) { return uids.indexOf(x) >= 0; });
