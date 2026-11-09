@@ -32,12 +32,12 @@
   var RATE = parseFloat(Q.get('rate') || '1') || 1;
   // preview only (config.js no_wait: true): answers and Next unlock at once, without watching both videos to the end
   var PREVIEW = Q.get('preview') === '1';
-  var NO_WAIT = CFG.no_wait === true || PREVIEW;
+  var NO_WAIT = true;   // 2026-11-08 (the user): the answers are open from the start; no waiting for one full play
   var MIN_WIDTH = Math.max(0, parseInt(CFG.min_width, 10) || 0);   // 2026-11-05: small-screen gate, 0 = off
   var EXT = Q.get('ext');
   var LS_KEY = 'vts_state_v1';
   var SEND_EVERY = 1;   // 2026-11-05: after every trial, so a rater who stops early loses nothing
-  var PAGE = '2026-11-08 one form, shuffled order, closest photo, pause on zoom, guided tour, Same option';
+  var PAGE = '2026-11-08 one form, shuffled order, closest photo, pause on zoom, guided tour, Same option, no wait';
 
   var S = null;      // study data
   var st = null;     // session state, saved in localStorage
@@ -292,7 +292,7 @@
   // Each step darkens the page around one part of the screen and explains it; the videos wait until the tour ends.
   var TOUR = [
     { el: '.videos', title: 'Two videos to compare',
-      text: 'Both videos start at the starting photo and follow the same camera path. They play together and repeat by themselves. The questions unlock after one full play.' },
+      text: 'Both videos start at the starting photo and follow the same camera path. They play together and repeat by themselves.' },
     { el: 'figure.f0', title: 'Starting photo', important: true,
       text: 'This is the appearance reference. A good video keeps its lighting, colors, weather, and time of day from start to finish.' },
     { el: '#near-fig', title: 'Closest photo', important: true,
@@ -421,7 +421,7 @@
     var vL = $('vid-L');
     var d = isFinite(vL.duration) ? vL.duration : 0;
     var t = Math.min(vL.currentTime || 0, d);
-    $('play-status').textContent = d ? (cur.unlocked ? 'Playing again (' : 'Playing (') + Math.floor(t) + ' s of ' + Math.round(d) + ' s)' : '';
+    $('play-status').textContent = d ? (cur.rec.loops > 0 ? 'Playing again (' : 'Playing (') + Math.floor(t) + ' s of ' + Math.round(d) + ' s)' : '';
   }
 
   function startBoth() {
@@ -441,13 +441,15 @@
     if (side === 'L') cur.endedL = true; else cur.endedR = true;
     if (cur.endedL && cur.endedR) {
       cur.rec.loops += 1;
+      var first = cur.rec.t_full === null || cur.rec.t_full === undefined;
+      if (first) cur.rec.t_full = now() - cur.t0;   // first full play (for screening)
       if (!cur.unlocked) {
         cur.unlocked = true;
         cur.rec.t_unlock = now() - cur.t0;
         lockQuestions(false);
         updateNext();
-        if (AUTOTEST) autoAnswer();
       }
+      if (first && AUTOTEST) autoAnswer();   // the automated test answers after one full play (answers are open from the start)
       var token = cur.token;
       setTimeout(function () { if (cur && cur.token === token && !cur.paused) startBoth(); }, 800);
     }
@@ -472,7 +474,7 @@
       token: token, t0: now(), unlocked: NO_WAIT, paused: false, endedL: false, endedR: false,
       rec: {
         uid: t.uid, i: i, cell: t.cell, L: t.L, R: t.R, ans: {}, t_ans: {}, n_changes: 0, loops: 0,
-        restarts: 0, pauses: 0, zooms: 0, near_changes: 0, t_ready: null, t_unlock: null, t_next: null, err: null,
+        restarts: 0, pauses: 0, zooms: 0, near_changes: 0, t_ready: null, t_unlock: null, t_full: null, t_next: null, err: null,
         vw: window.innerWidth, vh: window.innerHeight
       }
     };
