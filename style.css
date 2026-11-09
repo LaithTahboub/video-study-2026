@@ -83,7 +83,7 @@ figcaption { color: var(--muted); font-size: 0.88rem; margin-bottom: 4px; }
 .q .qtext b { color: var(--accent); font-variant-numeric: tabular-nums; margin-right: 6px; }
 .q .choices { display: flex; gap: 8px; }
 .q .choices button { min-width: 92px; padding: 5px 12px; }
-.q .choices button.same { min-width: 70px; color: var(--muted); }
+.q .choices button.same { min-width: 70px; }
 .q .choices button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 600; }
 .q.locked .qtext { color: var(--muted); }
 .q.main { border-color: var(--accent); padding: 6px 10px; }
